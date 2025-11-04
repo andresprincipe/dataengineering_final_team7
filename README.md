@@ -1,10 +1,21 @@
 # dataengineering_final_team7
-Code necessary for building Johns Hopkins Data Engineering course final group project (Fall 2025)
+Code necessary for building Johns Hopkins Data Engineering course final group project (Fall 2025). Main data source is found at https://opendata.maryland.gov/
 
-## Data Set description
-### Main data source is found at https://opendata.maryland.gov/
+## Data Set 1: Air & Radiation Enforcement Actions
 - Under the “Environment” category on Maryland’s open data website, there are “enforcement actions” taken by the state of MD to those who violate air and safety regulations. This data gets updated daily and has an API. It contains details about the different sites (companies) and what actions were taken against them for violating air regulations. It also includes county data that can be combined with the other datasets.
-  - •	Sample can be viewed here: Maryland Department of the Environment - Air and Radiation Administration (ARA) Enforcement Actions<img width="468" height="68" alt="image" src="https://github.com/user-attachments/assets/079d422d-f28d-494a-b665-f7af0a106c49" />
+  - Sample can be viewed here: [Maryland Department of the Environment - Air and Radiation Administration (ARA) Enforcement Actions](https://opendata.maryland.gov/Energy-and-Environment/Maryland-Department-of-the-Environment-Air-and-Rad/fpps-g5hi/data_preview)
+  - API [endpoint](https://opendata.maryland.gov/resource/fpps-g5hi.json)
+
+## Data Set 2: Wage Per Job
+- The selected dataset “Maryland Average Wage Per Job (in Constant 2024 Dollars): 2014-2024”, provides economic data related to employment across Maryland’s counties. This is a batch CSV data set, sourced from Maryland Open Data Portal, contains annual information on the average wage per job in the last ten years. This dataset is organized by county and includes columns such as Year, County, and Average Wage (Current Dollars). It allows for analysis of wage trends across different regions in Maryland. This dataset can be combined with other Maryland datasets such as environmental data to explore how environmental or economic patterns may correlate throughout the state. I intend to join this data with other Maryland data based on counties in Maryland.
+  - Sample can be viewed here: [Maryland Average Wage Per Job (Current Dollars): 2014-2024](https://opendata.maryland.gov/Demographic/Maryland-Average-Wage-Per-Job-Current-Dollars-2014/mk5a-nf44/data_preview)
+  - Static CSV that is stored in repository
+
+## Data Set 3: Wage Per Job
+- The selected dataset “Maryland Average Wage Per Job (in Constant 2024 Dollars): 2014-2024”, provides economic data related to employment across Maryland’s counties. This is a batch CSV data set, sourced from Maryland Open Data Portal, contains annual information on the average wage per job in the last ten years. This dataset is organized by county and includes columns such as Year, County, and Average Wage (Current Dollars). It allows for analysis of wage trends across different regions in Maryland. This dataset can be combined with other Maryland datasets such as environmental data to explore how environmental or economic patterns may correlate throughout the state. I intend to join this data with other Maryland data based on counties in Maryland.
+  - Sample can be viewed here: [Maryland Department of the Environment - Water and Science Administration (WSA) Enforcement Actions](https://opendata.maryland.gov/Energy-and-Environment/Maryland-Department-of-the-Environment-Water-and-S/qbwh-5vec/data_preview)
+  - API [endpoint](https://opendata.maryland.gov/resource/qbwh-5vec.json)
+
 
 
 
