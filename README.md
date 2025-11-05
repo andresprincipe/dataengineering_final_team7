@@ -16,6 +16,9 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
   - Sample can be viewed here: [Maryland Department of the Environment - Water and Science Administration (WSA) Enforcement Actions](https://opendata.maryland.gov/Energy-and-Environment/Maryland-Department-of-the-Environment-Water-and-S/qbwh-5vec/data_preview)
   - API [endpoint](https://opendata.maryland.gov/resource/qbwh-5vec.json)
 
-
+# File/Directory Descriptions
+- `fetchdata.py` is meant to be an initial script that retrieves data from APIs then processes them into cleaned CSV files that can be uploaded into a database.
+- `raw_data/` is a intermediate directory used by `fetchdata.py` to store data retrieved from GET requests in their native JSON format.
+- `clean_data/` is a directory used by `fetchdata.py` to store processed versions of the data found in `raw_data/`. The data in this directory is in CSV format for the purposes of ingestion into a database.
 
 
