@@ -1,0 +1,1015 @@
+[
+    {
+        "ai": "93478",
+        "facility_name": "Parkway Generation Operating, LLC - Keys Energy Center LLC",
+        "county": "Prince George's",
+        "action_description": "2E - State HPV Day Zero",
+        "achieved_date": "2021-02-04T00:00:00.000",
+        "addressinfo": "10322 N. Keys Road",
+        "city_state_zip": "Brandywine,MD,20613-8200"
+    },
+    {
+        "documents": {
+            "url": "https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2880856"
+        },
+        "ai": "2087",
+        "facility_name": "Perdue AgriBusiness LLC",
+        "county": "Wicomico",
+        "action_description": "2E - State HPV Day Zero",
+        "achieved_date": "2022-02-23T00:00:00.000",
+        "addressinfo": "6906 Zion Church Road",
+        "city_state_zip": "Salisbury,MD,21804"
+    },
+    {
+        "documents": {
+            "url": "https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2835530"
+        },
+        "ai": "89765",
+        "facility_name": "Bizerba Label Solutions, Inc",
+        "county": "Harford",
+        "action_description": "2E - State HPV Day Zero",
+        "achieved_date": "2021-12-16T00:00:00.000",
+        "addressinfo": "1804 Fashion Ct, Stes 113-120",
+        "city_state_zip": "Joppa,MD,21085"
+    },
+    {
+        "documents": {
+            "url": "https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2749686"
+        },
+        "ai": "1815",
+        "facility_name": "Naval Air Station Patuxent River",
+        "county": "St. Mary's",
+        "action_description": "2E - State HPV Day Zero",
+        "achieved_date": "2021-03-18T00:00:00.000",
+        "addressinfo": "22445 Peary Road, Building 504",
+        "city_state_zip": "Patuxent River,MD,20670-1603"
+    },
+    {
+        "documents": {
+            "url": "https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2994195"
+        },
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "SD - State Demand Letter (Stipulated Penalty)",
+        "achieved_date": "2023-03-17T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "documents": {
+            "url": "https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2969555"
+        },
+        "ai": "10261",
+        "facility_name": "CSX Transportation - Curtis Bay Piers",
+        "county": "Baltimore City",
+        "action_description": "48 - State Administrative Consent Order Signed",
+        "achieved_date": "2022-12-23T00:00:00.000",
+        "addressinfo": "1910 Benhill Ave",
+        "city_state_zip": "Curtis Bay,MD,21226"
+    },
+    {
+        "ai": "10963",
+        "facility_name": "USDA Beltsville Agriculture Research Center",
+        "county": "Prince George's",
+        "action_description": "2E - State HPV Day Zero",
+        "achieved_date": "2021-09-20T00:00:00.000",
+        "addressinfo": "10300 Baltimore Ave",
+        "city_state_zip": "Beltsville,MD,20705"
+    },
+    {
+        "ai": "10261",
+        "facility_name": "CSX Transportation - Curtis Bay Piers",
+        "county": "Baltimore City",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2024-10-01T00:00:00.000",
+        "addressinfo": "1910 Benhill Ave",
+        "city_state_zip": "Curtis Bay,MD,21226"
+    },
+    {
+        "ai": "89765",
+        "facility_name": "Bizerba Label Solutions, Inc",
+        "county": "Harford",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2024-08-05T00:00:00.000",
+        "addressinfo": "1804 Fashion Court",
+        "city_state_zip": "Joppa,MD,21085"
+    },
+    {
+        "ai": "89765",
+        "facility_name": "Bizerba Label Solutions, Inc",
+        "county": "Harford",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2024-09-26T00:00:00.000",
+        "addressinfo": "1804 Fashion Court",
+        "city_state_zip": "Joppa,MD,21085"
+    },
+    {
+        "ai": "4325",
+        "facility_name": "Saft America Inc",
+        "county": "Baltimore",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2022-10-19T00:00:00.000",
+        "addressinfo": "107 Beaver Ct",
+        "city_state_zip": "Cockeysville,MD,21030"
+    },
+    {
+        "ai": "4325",
+        "facility_name": "Saft America Inc",
+        "county": "Baltimore",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2022-11-25T00:00:00.000",
+        "addressinfo": "107 Beaver Ct",
+        "city_state_zip": "Cockeysville,MD,21030"
+    },
+    {
+        "ai": "7045",
+        "facility_name": "Schmidt Baking Co",
+        "county": "Baltimore",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2023-02-08T00:00:00.000",
+        "addressinfo": "7801 Fitch Lane",
+        "city_state_zip": "Nottingham,MD,21236"
+    },
+    {
+        "ai": "7045",
+        "facility_name": "Schmidt Baking Co",
+        "county": "Baltimore",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-02-27T00:00:00.000",
+        "addressinfo": "7801 Fitch Lane",
+        "city_state_zip": "Nottingham,MD,21236"
+    },
+    {
+        "ai": "147183",
+        "facility_name": "Vac Pac, Inc",
+        "county": "Baltimore",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2024-01-24T00:00:00.000",
+        "addressinfo": "917 Middle River Rd",
+        "city_state_zip": "Middle River,MD,21220"
+    },
+    {
+        "ai": "147183",
+        "facility_name": "Vac Pac, Inc",
+        "county": "Baltimore",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2024-03-05T00:00:00.000",
+        "addressinfo": "917 Middle River Rd",
+        "city_state_zip": "Middle River,MD,21220"
+    },
+    {
+        "ai": "439",
+        "facility_name": "Curtis Bay Energy, LP",
+        "county": "Baltimore City",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2023-11-29T00:00:00.000",
+        "addressinfo": "3200 Hawkins Point Road",
+        "city_state_zip": "Baltimore,MD,21226"
+    },
+    {
+        "ai": "131267",
+        "facility_name": "EPA Dorchester County",
+        "county": "Dorchester",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2023-03-15T00:00:00.000",
+        "addressinfo": "501 Court Ln",
+        "city_state_zip": "Cambridge,MD,21613"
+    },
+    {
+        "ai": "131267",
+        "facility_name": "EPA Dorchester County",
+        "county": "Dorchester",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-08-30T00:00:00.000",
+        "addressinfo": "501 Court Ln",
+        "city_state_zip": "Cambridge,MD,21613"
+    },
+    {
+        "ai": "29",
+        "facility_name": "Naval Support Activity Bethesda",
+        "county": "Montgomery",
+        "action_description": "47 - State Administrative Corrective Order Issued",
+        "achieved_date": "2021-07-16T00:00:00.000",
+        "addressinfo": "8901 Wisconsin Ave",
+        "city_state_zip": "Bethesda,MD,20889"
+    },
+    {
+        "ai": "119385",
+        "facility_name": "CSX Transportation, Inc",
+        "county": "Baltimore City",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2024-01-10T00:00:00.000",
+        "addressinfo": "900 Chesapeake Ave",
+        "city_state_zip": "Brooklyn,MD,21225"
+    },
+    {
+        "ai": "119385",
+        "facility_name": "CSX Transportation, Inc",
+        "county": "Baltimore City",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2024-02-24T00:00:00.000",
+        "addressinfo": "900 Chesapeake Ave",
+        "city_state_zip": "Brooklyn,MD,21225"
+    },
+    {
+        "ai": "439",
+        "facility_name": "Curtis Bay Energy, LP",
+        "county": "Baltimore City",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2022-02-25T00:00:00.000",
+        "addressinfo": "3200 Hawkins Point Road",
+        "city_state_zip": "Baltimore,MD,21226"
+    },
+    {
+        "ai": "439",
+        "facility_name": "Curtis Bay Energy, LP",
+        "county": "Baltimore City",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2022-01-21T00:00:00.000",
+        "addressinfo": "3200 Hawkins Point Road",
+        "city_state_zip": "Baltimore,MD,21226"
+    },
+    {
+        "ai": "439",
+        "facility_name": "Curtis Bay Energy, LP",
+        "county": "Baltimore City",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2024-03-14T00:00:00.000",
+        "addressinfo": "3200 Hawkins Point Road",
+        "city_state_zip": "Baltimore,MD,21226"
+    },
+    {
+        "ai": "16681",
+        "facility_name": "Gold Bond Building Products",
+        "county": "Baltimore City",
+        "action_description": "48 - State Administrative Consent Order Signed",
+        "achieved_date": "2022-06-07T00:00:00.000",
+        "addressinfo": "2301 S Newkirk St",
+        "city_state_zip": "Highlandtown,MD,21224"
+    },
+    {
+        "ai": "16681",
+        "facility_name": "Gold Bond Building Products",
+        "county": "Baltimore City",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2022-07-06T00:00:00.000",
+        "addressinfo": "2301 S Newkirk St",
+        "city_state_zip": "Highlandtown,MD,21224"
+    },
+    {
+        "ai": "64857",
+        "facility_name": "MANN-PAK, Inc.",
+        "county": "Baltimore",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2024-04-30T00:00:00.000",
+        "addressinfo": "9601 Pulaski Park Dr, Ste 401",
+        "city_state_zip": "Middle River,MD,21220"
+    },
+    {
+        "ai": "64857",
+        "facility_name": "MANN-PAK, Inc.",
+        "county": "Baltimore",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2024-05-29T00:00:00.000",
+        "addressinfo": "9601 Pulaski Park Dr, Ste 401",
+        "city_state_zip": "Middle River,MD,21220"
+    },
+    {
+        "ai": "3511",
+        "facility_name": "Mettiki Coal, LLC",
+        "county": "Garrett",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2021-03-19T00:00:00.000",
+        "addressinfo": "293 Table Rock Road",
+        "city_state_zip": "Oakland,MD,21550"
+    },
+    {
+        "ai": "3511",
+        "facility_name": "Mettiki Coal, LLC",
+        "county": "Garrett",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2021-02-08T00:00:00.000",
+        "addressinfo": "293 Table Rock Road",
+        "city_state_zip": "Oakland,MD,21550"
+    },
+    {
+        "ai": "3946",
+        "facility_name": "Constellation Power - Perryman Generating Station",
+        "county": "Harford",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2021-05-04T00:00:00.000",
+        "addressinfo": "900 Chelsea Rd",
+        "city_state_zip": "Aberdeen,MD,21001"
+    },
+    {
+        "ai": "3946",
+        "facility_name": "Constellation Power - Perryman Generating Station",
+        "county": "Harford",
+        "action_description": "48 - State Administrative Consent Order Signed",
+        "achieved_date": "2021-04-12T00:00:00.000",
+        "addressinfo": "900 Chelsea Rd",
+        "city_state_zip": "Aberdeen,MD,21001"
+    },
+    {
+        "ai": "2087",
+        "facility_name": "Perdue AgriBusiness LLC",
+        "county": "Wicomico",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2022-09-16T00:00:00.000",
+        "addressinfo": "6906 Zion Church Road",
+        "city_state_zip": "Salisbury,MD,21804"
+    },
+    {
+        "ai": "2087",
+        "facility_name": "Perdue AgriBusiness LLC",
+        "county": "Wicomico",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2022-08-17T00:00:00.000",
+        "addressinfo": "6906 Zion Church Road",
+        "city_state_zip": "Salisbury,MD,21804"
+    },
+    {
+        "ai": "89765",
+        "facility_name": "Bizerba Label Solutions, Inc",
+        "county": "Harford",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2022-08-08T00:00:00.000",
+        "addressinfo": "1804 Fashion Ct, Stes 113-120",
+        "city_state_zip": "Joppa,MD,21085"
+    },
+    {
+        "ai": "89765",
+        "facility_name": "Bizerba Label Solutions, Inc",
+        "county": "Harford",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2022-06-03T00:00:00.000",
+        "addressinfo": "1804 Fashion Ct, Stes 113-120",
+        "city_state_zip": "Joppa,MD,21085"
+    },
+    {
+        "ai": "2087",
+        "facility_name": "Perdue AgriBusiness LLC",
+        "county": "Wicomico",
+        "action_description": "46 - State Court Consent Decree Signed",
+        "achieved_date": "2024-07-26T00:00:00.000",
+        "addressinfo": "6906 Zion Church Road",
+        "city_state_zip": "Salisbury,MD,21804"
+    },
+    {
+        "ai": "2087",
+        "facility_name": "Perdue AgriBusiness LLC",
+        "county": "Wicomico",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2023-05-25T00:00:00.000",
+        "addressinfo": "6906 Zion Church Road",
+        "city_state_zip": "Salisbury,MD,21804"
+    },
+    {
+        "ai": "2102",
+        "facility_name": "W. R. Grace & Co. - Curtis Bay Works",
+        "county": "Baltimore City",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2024-07-30T00:00:00.000",
+        "addressinfo": "5500 Chemical Rd",
+        "city_state_zip": "Curtis Bay,MD,21226-1698"
+    },
+    {
+        "ai": "2102",
+        "facility_name": "W. R. Grace & Co. - Curtis Bay Works",
+        "county": "Baltimore City",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2024-08-27T00:00:00.000",
+        "addressinfo": "5500 Chemical Rd",
+        "city_state_zip": "Curtis Bay,MD,21226-1698"
+    },
+    {
+        "ai": "1788",
+        "facility_name": "Naval Support Facility Indian Head",
+        "county": "Charles",
+        "action_description": "LV - Letter of Violation",
+        "achieved_date": "2024-06-18T00:00:00.000",
+        "addressinfo": "3972 Ward Rd, Ste 101, Environmental Program Office",
+        "city_state_zip": "Indian Head,MD,20640-5157"
+    },
+    {
+        "ai": "7713",
+        "facility_name": "Independent Can Company",
+        "county": "Harford",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2024-02-26T00:00:00.000",
+        "addressinfo": "1300 Brass Mill Road",
+        "city_state_zip": "Belcamp,MD,21017-0370"
+    },
+    {
+        "ai": "7713",
+        "facility_name": "Independent Can Company",
+        "county": "Harford",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2024-04-12T00:00:00.000",
+        "addressinfo": "1300 Brass Mill Road",
+        "city_state_zip": "Belcamp,MD,21017-0370"
+    },
+    {
+        "ai": "93478",
+        "facility_name": "Parkway Generation Operating, LLC - Keys Energy Center LLC",
+        "county": "Prince George's",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2022-02-24T00:00:00.000",
+        "addressinfo": "10322 N. Keys Road",
+        "city_state_zip": "Brandywine,MD,20613-8200"
+    },
+    {
+        "ai": "93478",
+        "facility_name": "Parkway Generation Operating, LLC - Keys Energy Center LLC",
+        "county": "Prince George's",
+        "action_description": "48 - State Administrative Consent Order Signed",
+        "achieved_date": "2022-01-19T00:00:00.000",
+        "addressinfo": "10322 N. Keys Road",
+        "city_state_zip": "Brandywine,MD,20613-8200"
+    },
+    {
+        "ai": "6191",
+        "facility_name": "Darling Ingredients, Inc. - Linkwood",
+        "county": "Dorchester",
+        "action_description": "46 - State Court Consent Decree Signed",
+        "achieved_date": "2022-09-12T00:00:00.000",
+        "addressinfo": "5420 Linkwood Road",
+        "city_state_zip": "Linkwood,MD,21835"
+    },
+    {
+        "ai": "6191",
+        "facility_name": "Darling Ingredients, Inc. - Linkwood",
+        "county": "Dorchester",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-01-23T00:00:00.000",
+        "addressinfo": "5420 Linkwood Road",
+        "city_state_zip": "Linkwood,MD,21835"
+    },
+    {
+        "ai": "26688",
+        "facility_name": "Lifoam Industries, LLC",
+        "county": "Harford",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2021-04-19T00:00:00.000",
+        "addressinfo": "121 Bata Boulevard",
+        "city_state_zip": "Belcamp,MD,21017"
+    },
+    {
+        "ai": "26688",
+        "facility_name": "Lifoam Industries, LLC",
+        "county": "Harford",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2021-04-02T00:00:00.000",
+        "addressinfo": "121 Bata Boulevard",
+        "city_state_zip": "Belcamp,MD,21017"
+    },
+    {
+        "ai": "8739",
+        "facility_name": "American Yeast Corporation",
+        "county": "Baltimore",
+        "action_description": "LV - Letter of Violation",
+        "achieved_date": "2023-12-04T00:00:00.000",
+        "addressinfo": "8215 Beachwood Rd",
+        "city_state_zip": "Dundalk,MD,21222"
+    },
+    {
+        "ai": "2087",
+        "facility_name": "Perdue AgriBusiness LLC",
+        "county": "Wicomico",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2021-05-18T00:00:00.000",
+        "addressinfo": "6906 Zion Church Road",
+        "city_state_zip": "Salisbury,MD,21804"
+    },
+    {
+        "ai": "2087",
+        "facility_name": "Perdue AgriBusiness LLC",
+        "county": "Wicomico",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2021-06-21T00:00:00.000",
+        "addressinfo": "6906 Zion Church Road",
+        "city_state_zip": "Salisbury,MD,21804"
+    },
+    {
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2022-03-22T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "48 - State Administrative Consent Order Signed",
+        "achieved_date": "2022-01-26T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "ai": "2167",
+        "facility_name": "Heidelberg Materials US Cement LLC",
+        "county": "Carroll",
+        "action_description": "46 - State Court Consent Decree Signed",
+        "achieved_date": "2020-11-18T00:00:00.000",
+        "addressinfo": "675 Quaker Hill Road",
+        "city_state_zip": "Union Bridge,MD,21791"
+    },
+    {
+        "ai": "2167",
+        "facility_name": "Heidelberg Materials US Cement LLC",
+        "county": "Carroll",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2020-11-30T00:00:00.000",
+        "addressinfo": "675 Quaker Hill Road",
+        "city_state_zip": "Union Bridge,MD,21791"
+    },
+    {
+        "ai": "169381",
+        "facility_name": "Chalk Point Power, LLC",
+        "county": "Prince George's",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2024-07-05T00:00:00.000",
+        "addressinfo": "25100 Chalk Point Road",
+        "city_state_zip": "Aquasco,MD,20608"
+    },
+    {
+        "ai": "169381",
+        "facility_name": "Chalk Point Power, LLC",
+        "county": "Prince George's",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2024-05-21T00:00:00.000",
+        "addressinfo": "25100 Chalk Point Road",
+        "city_state_zip": "Aquasco,MD,20608"
+    },
+    {
+        "ai": "143545",
+        "facility_name": "Horseshoe Casino Baltimore",
+        "county": "Baltimore City",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2024-09-06T00:00:00.000",
+        "addressinfo": "2105 Haines St (Central Utility Plant)",
+        "city_state_zip": "Baltimore,MD,21230"
+    },
+    {
+        "ai": "143545",
+        "facility_name": "Horseshoe Casino Baltimore",
+        "county": "Baltimore City",
+        "action_description": "48 - State Administrative Consent Order Signed",
+        "achieved_date": "2024-07-29T00:00:00.000",
+        "addressinfo": "2105 Haines St (Central Utility Plant)",
+        "city_state_zip": "Baltimore,MD,21230"
+    },
+    {
+        "ai": "439",
+        "facility_name": "Curtis Bay Energy, LP",
+        "county": "Baltimore City",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2024-04-22T00:00:00.000",
+        "addressinfo": "3200 Hawkins Point Road",
+        "city_state_zip": "Baltimore,MD,21226"
+    },
+    {
+        "ai": "26688",
+        "facility_name": "Lifoam Industries, LLC",
+        "county": "Harford",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2022-08-08T00:00:00.000",
+        "addressinfo": "121 Bata Boulevard",
+        "city_state_zip": "Belcamp,MD,21017"
+    },
+    {
+        "ai": "26688",
+        "facility_name": "Lifoam Industries, LLC",
+        "county": "Harford",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2022-06-08T00:00:00.000",
+        "addressinfo": "121 Bata Boulevard",
+        "city_state_zip": "Belcamp,MD,21017"
+    },
+    {
+        "ai": "3830",
+        "facility_name": "Amrize Cement Inc",
+        "county": "Baltimore",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2023-09-27T00:00:00.000",
+        "addressinfo": "950 Wharf Rd Gate 15b",
+        "city_state_zip": "Sparrows Point,MD,21219"
+    },
+    {
+        "ai": "3830",
+        "facility_name": "Amrize Cement Inc",
+        "county": "Baltimore",
+        "action_description": "48 - State Administrative Consent Order Signed",
+        "achieved_date": "2023-09-27T00:00:00.000",
+        "addressinfo": "950 Wharf Rd Gate 15b",
+        "city_state_zip": "Sparrows Point,MD,21219"
+    },
+    {
+        "ai": "3830",
+        "facility_name": "Amrize Cement Inc",
+        "county": "Baltimore",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-10-04T00:00:00.000",
+        "addressinfo": "950 Wharf Rd Gate 15b",
+        "city_state_zip": "Sparrows Point,MD,21219"
+    },
+    {
+        "ai": "3830",
+        "facility_name": "Amrize Cement Inc",
+        "county": "Baltimore",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2021-07-12T00:00:00.000",
+        "addressinfo": "950 Wharf Rd Gate 15b",
+        "city_state_zip": "Sparrows Point,MD,21219"
+    },
+    {
+        "ai": "8739",
+        "facility_name": "American Yeast Corporation",
+        "county": "Baltimore",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-10-20T00:00:00.000",
+        "addressinfo": "8215 Beachwood Rd",
+        "city_state_zip": "Dundalk,MD,21222"
+    },
+    {
+        "ai": "8739",
+        "facility_name": "American Yeast Corporation",
+        "county": "Baltimore",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2023-06-29T00:00:00.000",
+        "addressinfo": "8215 Beachwood Rd",
+        "city_state_zip": "Dundalk,MD,21222"
+    },
+    {
+        "ai": "1792",
+        "facility_name": "US Coast Guard Yard (USCG Yard)",
+        "county": "Anne Arundel",
+        "action_description": "LV - Letter of Violation",
+        "achieved_date": "2021-12-14T00:00:00.000",
+        "addressinfo": "2401 Hawkins Point Rd",
+        "city_state_zip": "Curtis Bay,MD,21226"
+    },
+    {
+        "ai": "109835",
+        "facility_name": "American Crematory, LLC",
+        "county": "Charles",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-02-05T00:00:00.000",
+        "addressinfo": "4445 Crain Highway",
+        "city_state_zip": "White Plains,MD,20695"
+    },
+    {
+        "ai": "109835",
+        "facility_name": "American Crematory, LLC",
+        "county": "Charles",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2022-12-16T00:00:00.000",
+        "addressinfo": "4445 Crain Highway",
+        "city_state_zip": "White Plains,MD,20695"
+    },
+    {
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-02-15T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2023-01-12T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2023-11-29T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "ai": "20514",
+        "facility_name": "CCL Label, Inc.",
+        "county": "Baltimore City",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2021-01-21T00:00:00.000",
+        "addressinfo": "1831 Portal St, Unit D, Unit D",
+        "city_state_zip": "Baltimore,MD,21224"
+    },
+    {
+        "ai": "20514",
+        "facility_name": "CCL Label, Inc.",
+        "county": "Baltimore City",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2020-12-08T00:00:00.000",
+        "addressinfo": "1831 Portal St, Unit D, Unit D",
+        "city_state_zip": "Baltimore,MD,21224"
+    },
+    {
+        "ai": "3830",
+        "facility_name": "Amrize Cement Inc",
+        "county": "Baltimore",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2021-05-06T00:00:00.000",
+        "addressinfo": "950 Wharf Rd Gate 15b",
+        "city_state_zip": "Sparrows Point,MD,21219"
+    },
+    {
+        "ai": "3830",
+        "facility_name": "Amrize Cement Inc",
+        "county": "Baltimore",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2021-03-15T00:00:00.000",
+        "addressinfo": "950 Wharf Rd Gate 15b",
+        "city_state_zip": "Sparrows Point,MD,21219"
+    },
+    {
+        "ai": "31805",
+        "facility_name": "Gaylord Entertainment Company",
+        "county": "Prince George's",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2023-12-01T00:00:00.000",
+        "addressinfo": "701 National Harbor Blvd",
+        "city_state_zip": "Oxon Hill,MD,20745"
+    },
+    {
+        "ai": "2087",
+        "facility_name": "Perdue AgriBusiness LLC",
+        "county": "Wicomico",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2024-04-11T00:00:00.000",
+        "addressinfo": "6906 Zion Church Road",
+        "city_state_zip": "Salisbury,MD,21804"
+    },
+    {
+        "ai": "2087",
+        "facility_name": "Perdue AgriBusiness LLC",
+        "county": "Wicomico",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2025-03-31T00:00:00.000",
+        "addressinfo": "6906 Zion Church Road",
+        "city_state_zip": "Salisbury,MD,21804"
+    },
+    {
+        "ai": "2087",
+        "facility_name": "Perdue AgriBusiness LLC",
+        "county": "Wicomico",
+        "action_description": "48 - State Administrative Consent Order Signed",
+        "achieved_date": "2025-02-18T00:00:00.000",
+        "addressinfo": "6906 Zion Church Road",
+        "city_state_zip": "Salisbury,MD,21804"
+    },
+    {
+        "ai": "1873",
+        "facility_name": "V Luke LLC",
+        "action_description": "46 - State Court Consent Decree Signed",
+        "achieved_date": "2021-03-31T00:00:00.000",
+        "addressinfo": "300 Pratt Street",
+        "city_state_zip": "Luke,MD,21540-1099"
+    },
+    {
+        "ai": "8449",
+        "facility_name": "Back River WWTP",
+        "county": "Baltimore",
+        "action_description": "LV - Letter of Violation",
+        "achieved_date": "2024-10-02T00:00:00.000",
+        "addressinfo": "8201 Eastern Ave",
+        "city_state_zip": "Baltimore,MD,21224"
+    },
+    {
+        "ai": "93478",
+        "facility_name": "Parkway Generation Operating, LLC - Keys Energy Center LLC",
+        "county": "Prince George's",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2021-06-24T00:00:00.000",
+        "addressinfo": "10322 N. Keys Road",
+        "city_state_zip": "Brandywine,MD,20613-8200"
+    },
+    {
+        "ai": "5287",
+        "facility_name": "Cove Point LNG, LP",
+        "county": "Calvert",
+        "action_description": "LV - Letter of Violation",
+        "achieved_date": "2023-12-05T00:00:00.000",
+        "addressinfo": "2100 Cove Point Road",
+        "city_state_zip": "Lusby,MD,20657"
+    },
+    {
+        "ai": "582",
+        "facility_name": "Middle River Aerostructure Systems",
+        "county": "Baltimore",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-08-22T00:00:00.000",
+        "addressinfo": "103 Chesapeake Park Plaza",
+        "city_state_zip": "Middle River,MD,21220"
+    },
+    {
+        "ai": "582",
+        "facility_name": "Middle River Aerostructure Systems",
+        "county": "Baltimore",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2023-07-19T00:00:00.000",
+        "addressinfo": "103 Chesapeake Park Plaza",
+        "city_state_zip": "Middle River,MD,21220"
+    },
+    {
+        "ai": "155310",
+        "facility_name": "Reese Transportation",
+        "county": "Worcester",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2024-10-15T00:00:00.000",
+        "addressinfo": "1976 Worcester Hwy",
+        "city_state_zip": "Pocomoke City,MD,21851"
+    },
+    {
+        "ai": "155310",
+        "facility_name": "Reese Transportation",
+        "county": "Worcester",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2024-08-28T00:00:00.000",
+        "addressinfo": "1976 Worcester Hwy",
+        "city_state_zip": "Pocomoke City,MD,21851"
+    },
+    {
+        "ai": "130591",
+        "facility_name": "EPA Baltimore City",
+        "county": "Baltimore City",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2022-02-02T00:00:00.000",
+        "addressinfo": "100 N Holiday St",
+        "city_state_zip": "Baltimore,MD,21201"
+    },
+    {
+        "ai": "130591",
+        "facility_name": "EPA Baltimore City",
+        "county": "Baltimore City",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2022-05-17T00:00:00.000",
+        "addressinfo": "100 N Holiday St",
+        "city_state_zip": "Baltimore,MD,21201"
+    },
+    {
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-01-24T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "SD - State Demand Letter (Stipulated Penalty)",
+        "achieved_date": "2022-12-20T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "ai": "439",
+        "facility_name": "Curtis Bay Energy, LP",
+        "county": "Baltimore City",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2023-10-23T00:00:00.000",
+        "addressinfo": "3200 Hawkins Point Road",
+        "city_state_zip": "Baltimore,MD,21226"
+    },
+    {
+        "ai": "20603",
+        "facility_name": "APG-Edgewood Area",
+        "county": "Harford",
+        "action_description": "LV - Letter of Violation",
+        "achieved_date": "2021-09-17T00:00:00.000",
+        "addressinfo": "Edgewood Area-Aberdeen Proving Ground",
+        "city_state_zip": "Aberdeen Proving Ground,MD,21010"
+    },
+    {
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2023-10-31T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "ai": "10963",
+        "facility_name": "USDA Beltsville Agriculture Research Center",
+        "county": "Prince George's",
+        "action_description": "47 - State Administrative Corrective Order Issued",
+        "achieved_date": "2022-03-24T00:00:00.000",
+        "addressinfo": "10300 Baltimore Ave",
+        "city_state_zip": "Beltsville,MD,20705"
+    },
+    {
+        "ai": "10261",
+        "facility_name": "CSX Transportation - Curtis Bay Piers",
+        "county": "Baltimore City",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-01-27T00:00:00.000",
+        "addressinfo": "1910 Benhill Ave",
+        "city_state_zip": "Curtis Bay,MD,21226"
+    },
+    {
+        "ai": "10261",
+        "facility_name": "CSX Transportation - Curtis Bay Piers",
+        "county": "Baltimore City",
+        "action_description": "48 - State Administrative Consent Order Signed",
+        "achieved_date": "2022-12-23T00:00:00.000",
+        "addressinfo": "1910 Benhill Ave",
+        "city_state_zip": "Curtis Bay,MD,21226"
+    },
+    {
+        "ai": "8739",
+        "facility_name": "American Yeast Corporation",
+        "county": "Baltimore",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2022-09-09T00:00:00.000",
+        "addressinfo": "8215 Beachwood Rd",
+        "city_state_zip": "Dundalk,MD,21222"
+    },
+    {
+        "ai": "8739",
+        "facility_name": "American Yeast Corporation",
+        "county": "Baltimore",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2022-11-02T00:00:00.000",
+        "addressinfo": "8215 Beachwood Rd",
+        "city_state_zip": "Dundalk,MD,21222"
+    },
+    {
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "SD - State Demand Letter (Stipulated Penalty)",
+        "achieved_date": "2023-03-17T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "ai": "2255",
+        "facility_name": "Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)",
+        "county": "Washington",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-04-23T00:00:00.000",
+        "addressinfo": "1260 Security Road",
+        "city_state_zip": "Hagerstown,MD,21742"
+    },
+    {
+        "ai": "131279",
+        "facility_name": "EPA Washington County",
+        "county": "Washington",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2023-12-20T00:00:00.000",
+        "addressinfo": "111 West Washington Street",
+        "city_state_zip": "Hagerstown,MD,21740"
+    },
+    {
+        "ai": "131279",
+        "facility_name": "EPA Washington County",
+        "county": "Washington",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2023-11-21T00:00:00.000",
+        "addressinfo": "111 West Washington Street",
+        "city_state_zip": "Hagerstown,MD,21740"
+    },
+    {
+        "ai": "1853",
+        "facility_name": "Sherwin-Williams",
+        "county": "Baltimore City",
+        "action_description": "CR - State Civil Referral",
+        "achieved_date": "2024-07-17T00:00:00.000",
+        "addressinfo": "2325 Hollins Ferry Road",
+        "city_state_zip": "Baltimore,MD,21230"
+    },
+    {
+        "ai": "3946",
+        "facility_name": "Constellation Power - Perryman Generating Station",
+        "county": "Harford",
+        "action_description": "92 - State Civil Penalty Assessed",
+        "achieved_date": "2024-04-12T00:00:00.000",
+        "addressinfo": "900 Chelsea Rd",
+        "city_state_zip": "Aberdeen,MD,21001"
+    },
+    {
+        "ai": "3946",
+        "facility_name": "Constellation Power - Perryman Generating Station",
+        "county": "Harford",
+        "action_description": "PC - Penalty Collected",
+        "achieved_date": "2024-05-20T00:00:00.000",
+        "addressinfo": "900 Chelsea Rd",
+        "city_state_zip": "Aberdeen,MD,21001"
+    }
+]
