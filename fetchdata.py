@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+This script fetches environmental enforcement data from
+Maryland's open data API endpoints, saves the raw data,
+and processes it into cleaned CSV files.
+"""
 
 import requests
 import json
 import os
 import pandas as pd
+from mdprocessingutils import *
 
 # Creating dictionary of Maryland API endpoints
 MD_API_DICT = {
@@ -14,6 +20,15 @@ MD_API_DICT = {
 
 CURRENT_DIR = os.getcwd()
 
+COLS_TO_COMBINE = {"md_air_enforcement":['ai',
+                                         'facility_name',
+                                         'ai_combined',
+                                         ' - '],
+                   "md_water_enforcement":['ai_id',
+                                           'ai_name',
+                                           'ai_combined',
+                                           ' - '],
+                   }
 
 def link_check(URL):
     """Checks if the API endpoint is reachable."""
@@ -36,18 +51,6 @@ def fetch_data(URL):
     """
     response = requests.get(URL)
     return response.json()
-
-def get_all_file_paths(directory):
-    """
-    Retrieves a list of all absolute file paths within 
-    a given directory.
-    """
-    file_paths = []
-    for root, _, files in os.walk(directory):
-        for file_name in files:
-            full_path = os.path.join(root, file_name)
-            file_paths.append(full_path)
-    return file_paths
 
 if __name__ == "__main__":
 
@@ -88,12 +91,29 @@ Status code: {status_code}"
                                       f"{data_name}_cleaned.csv")
         if '.csv' in path:
             df = pd.read_csv(path)
-            # add additional processing function/steps here
+            # Additional processing steps from mdprocessingutils
             df.to_csv(processed_path,index=False)
             print('Successfully processed:',data_name)
 
         elif '.json' in path:
             df = pd.read_json(path)
-            # add additional processing function/steps here
+            # Additional processing steps from mdprocessingutils
+            df = string_split_column(df,'city_state_zip',',')
+            df = rename_split_columns(df,'city_state_zip')
+            combine_cols_params = COLS_TO_COMBINE.get(data_name)
+            combine_cols_params.insert(0,df)
+            df = combine_2_cols(*tuple(combine_cols_params))
+
+            # Only keeping the first part of the zip code
+            # and forcing to be an integer
+            df['zip'] = df['zip'].str.strip()
+            df['zip'] = df['zip'].str.split('-').str[0]
+            df['zip'] = (pd.to_numeric(df['zip'],
+                                       errors='coerce')
+                         .fillna(0)
+                         .astype(int)
+                         )
+            
+            # 
             df.to_csv(processed_path,index=False)
             print('Successfully processed:',data_name)

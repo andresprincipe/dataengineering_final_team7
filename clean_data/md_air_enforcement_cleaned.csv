@@ -1,112 +1,112 @@
-ai,facility_name,county,action_description,achieved_date,addressinfo,city_state_zip,documents
-93478,"Parkway Generation Operating, LLC - Keys Energy Center LLC",Prince George's,2E - State HPV Day Zero,2021-02-04T00:00:00.000,10322 N. Keys Road,"Brandywine,MD,20613-8200",
-2087,Perdue AgriBusiness LLC,Wicomico,2E - State HPV Day Zero,2022-02-23T00:00:00.000,6906 Zion Church Road,"Salisbury,MD,21804",{'url': 'https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2880856'}
-89765,"Bizerba Label Solutions, Inc",Harford,2E - State HPV Day Zero,2021-12-16T00:00:00.000,"1804 Fashion Ct, Stes 113-120","Joppa,MD,21085",{'url': 'https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2835530'}
-1815,Naval Air Station Patuxent River,St. Mary's,2E - State HPV Day Zero,2021-03-18T00:00:00.000,"22445 Peary Road, Building 504","Patuxent River,MD,20670-1603",{'url': 'https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2749686'}
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,SD - State Demand Letter (Stipulated Penalty),2023-03-17T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",{'url': 'https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2994195'}
-10261,CSX Transportation - Curtis Bay Piers,Baltimore City,48 - State Administrative Consent Order Signed,2022-12-23T00:00:00.000,1910 Benhill Ave,"Curtis Bay,MD,21226",{'url': 'https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2969555'}
-10963,USDA Beltsville Agriculture Research Center,Prince George's,2E - State HPV Day Zero,2021-09-20T00:00:00.000,10300 Baltimore Ave,"Beltsville,MD,20705",
-10261,CSX Transportation - Curtis Bay Piers,Baltimore City,CR - State Civil Referral,2024-10-01T00:00:00.000,1910 Benhill Ave,"Curtis Bay,MD,21226",
-89765,"Bizerba Label Solutions, Inc",Harford,92 - State Civil Penalty Assessed,2024-08-05T00:00:00.000,1804 Fashion Court,"Joppa,MD,21085",
-89765,"Bizerba Label Solutions, Inc",Harford,PC - Penalty Collected,2024-09-26T00:00:00.000,1804 Fashion Court,"Joppa,MD,21085",
-4325,Saft America Inc,Baltimore,92 - State Civil Penalty Assessed,2022-10-19T00:00:00.000,107 Beaver Ct,"Cockeysville,MD,21030",
-4325,Saft America Inc,Baltimore,PC - Penalty Collected,2022-11-25T00:00:00.000,107 Beaver Ct,"Cockeysville,MD,21030",
-7045,Schmidt Baking Co,Baltimore,92 - State Civil Penalty Assessed,2023-02-08T00:00:00.000,7801 Fitch Lane,"Nottingham,MD,21236",
-7045,Schmidt Baking Co,Baltimore,PC - Penalty Collected,2023-02-27T00:00:00.000,7801 Fitch Lane,"Nottingham,MD,21236",
-147183,"Vac Pac, Inc",Baltimore,92 - State Civil Penalty Assessed,2024-01-24T00:00:00.000,917 Middle River Rd,"Middle River,MD,21220",
-147183,"Vac Pac, Inc",Baltimore,PC - Penalty Collected,2024-03-05T00:00:00.000,917 Middle River Rd,"Middle River,MD,21220",
-439,"Curtis Bay Energy, LP",Baltimore City,CR - State Civil Referral,2023-11-29T00:00:00.000,3200 Hawkins Point Road,"Baltimore,MD,21226",
-131267,EPA Dorchester County,Dorchester,92 - State Civil Penalty Assessed,2023-03-15T00:00:00.000,501 Court Ln,"Cambridge,MD,21613",
-131267,EPA Dorchester County,Dorchester,PC - Penalty Collected,2023-08-30T00:00:00.000,501 Court Ln,"Cambridge,MD,21613",
-29,Naval Support Activity Bethesda,Montgomery,47 - State Administrative Corrective Order Issued,2021-07-16T00:00:00.000,8901 Wisconsin Ave,"Bethesda,MD,20889",
-119385,"CSX Transportation, Inc",Baltimore City,92 - State Civil Penalty Assessed,2024-01-10T00:00:00.000,900 Chesapeake Ave,"Brooklyn,MD,21225",
-119385,"CSX Transportation, Inc",Baltimore City,PC - Penalty Collected,2024-02-24T00:00:00.000,900 Chesapeake Ave,"Brooklyn,MD,21225",
-439,"Curtis Bay Energy, LP",Baltimore City,PC - Penalty Collected,2022-02-25T00:00:00.000,3200 Hawkins Point Road,"Baltimore,MD,21226",
-439,"Curtis Bay Energy, LP",Baltimore City,92 - State Civil Penalty Assessed,2022-01-21T00:00:00.000,3200 Hawkins Point Road,"Baltimore,MD,21226",
-439,"Curtis Bay Energy, LP",Baltimore City,CR - State Civil Referral,2024-03-14T00:00:00.000,3200 Hawkins Point Road,"Baltimore,MD,21226",
-16681,Gold Bond Building Products,Baltimore City,48 - State Administrative Consent Order Signed,2022-06-07T00:00:00.000,2301 S Newkirk St,"Highlandtown,MD,21224",
-16681,Gold Bond Building Products,Baltimore City,PC - Penalty Collected,2022-07-06T00:00:00.000,2301 S Newkirk St,"Highlandtown,MD,21224",
-64857,"MANN-PAK, Inc.",Baltimore,92 - State Civil Penalty Assessed,2024-04-30T00:00:00.000,"9601 Pulaski Park Dr, Ste 401","Middle River,MD,21220",
-64857,"MANN-PAK, Inc.",Baltimore,PC - Penalty Collected,2024-05-29T00:00:00.000,"9601 Pulaski Park Dr, Ste 401","Middle River,MD,21220",
-3511,"Mettiki Coal, LLC",Garrett,PC - Penalty Collected,2021-03-19T00:00:00.000,293 Table Rock Road,"Oakland,MD,21550",
-3511,"Mettiki Coal, LLC",Garrett,92 - State Civil Penalty Assessed,2021-02-08T00:00:00.000,293 Table Rock Road,"Oakland,MD,21550",
-3946,Constellation Power - Perryman Generating Station,Harford,PC - Penalty Collected,2021-05-04T00:00:00.000,900 Chelsea Rd,"Aberdeen,MD,21001",
-3946,Constellation Power - Perryman Generating Station,Harford,48 - State Administrative Consent Order Signed,2021-04-12T00:00:00.000,900 Chelsea Rd,"Aberdeen,MD,21001",
-2087,Perdue AgriBusiness LLC,Wicomico,PC - Penalty Collected,2022-09-16T00:00:00.000,6906 Zion Church Road,"Salisbury,MD,21804",
-2087,Perdue AgriBusiness LLC,Wicomico,92 - State Civil Penalty Assessed,2022-08-17T00:00:00.000,6906 Zion Church Road,"Salisbury,MD,21804",
-89765,"Bizerba Label Solutions, Inc",Harford,PC - Penalty Collected,2022-08-08T00:00:00.000,"1804 Fashion Ct, Stes 113-120","Joppa,MD,21085",
-89765,"Bizerba Label Solutions, Inc",Harford,92 - State Civil Penalty Assessed,2022-06-03T00:00:00.000,"1804 Fashion Ct, Stes 113-120","Joppa,MD,21085",
-2087,Perdue AgriBusiness LLC,Wicomico,46 - State Court Consent Decree Signed,2024-07-26T00:00:00.000,6906 Zion Church Road,"Salisbury,MD,21804",
-2087,Perdue AgriBusiness LLC,Wicomico,CR - State Civil Referral,2023-05-25T00:00:00.000,6906 Zion Church Road,"Salisbury,MD,21804",
-2102,W. R. Grace & Co. - Curtis Bay Works,Baltimore City,92 - State Civil Penalty Assessed,2024-07-30T00:00:00.000,5500 Chemical Rd,"Curtis Bay,MD,21226-1698",
-2102,W. R. Grace & Co. - Curtis Bay Works,Baltimore City,PC - Penalty Collected,2024-08-27T00:00:00.000,5500 Chemical Rd,"Curtis Bay,MD,21226-1698",
-1788,Naval Support Facility Indian Head,Charles,LV - Letter of Violation,2024-06-18T00:00:00.000,"3972 Ward Rd, Ste 101, Environmental Program Office","Indian Head,MD,20640-5157",
-7713,Independent Can Company,Harford,92 - State Civil Penalty Assessed,2024-02-26T00:00:00.000,1300 Brass Mill Road,"Belcamp,MD,21017-0370",
-7713,Independent Can Company,Harford,PC - Penalty Collected,2024-04-12T00:00:00.000,1300 Brass Mill Road,"Belcamp,MD,21017-0370",
-93478,"Parkway Generation Operating, LLC - Keys Energy Center LLC",Prince George's,PC - Penalty Collected,2022-02-24T00:00:00.000,10322 N. Keys Road,"Brandywine,MD,20613-8200",
-93478,"Parkway Generation Operating, LLC - Keys Energy Center LLC",Prince George's,48 - State Administrative Consent Order Signed,2022-01-19T00:00:00.000,10322 N. Keys Road,"Brandywine,MD,20613-8200",
-6191,"Darling Ingredients, Inc. - Linkwood",Dorchester,46 - State Court Consent Decree Signed,2022-09-12T00:00:00.000,5420 Linkwood Road,"Linkwood,MD,21835",
-6191,"Darling Ingredients, Inc. - Linkwood",Dorchester,PC - Penalty Collected,2023-01-23T00:00:00.000,5420 Linkwood Road,"Linkwood,MD,21835",
-26688,"Lifoam Industries, LLC",Harford,PC - Penalty Collected,2021-04-19T00:00:00.000,121 Bata Boulevard,"Belcamp,MD,21017",
-26688,"Lifoam Industries, LLC",Harford,92 - State Civil Penalty Assessed,2021-04-02T00:00:00.000,121 Bata Boulevard,"Belcamp,MD,21017",
-8739,American Yeast Corporation,Baltimore,LV - Letter of Violation,2023-12-04T00:00:00.000,8215 Beachwood Rd,"Dundalk,MD,21222",
-2087,Perdue AgriBusiness LLC,Wicomico,92 - State Civil Penalty Assessed,2021-05-18T00:00:00.000,6906 Zion Church Road,"Salisbury,MD,21804",
-2087,Perdue AgriBusiness LLC,Wicomico,PC - Penalty Collected,2021-06-21T00:00:00.000,6906 Zion Church Road,"Salisbury,MD,21804",
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,PC - Penalty Collected,2022-03-22T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,48 - State Administrative Consent Order Signed,2022-01-26T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",
-2167,Heidelberg Materials US Cement LLC,Carroll,46 - State Court Consent Decree Signed,2020-11-18T00:00:00.000,675 Quaker Hill Road,"Union Bridge,MD,21791",
-2167,Heidelberg Materials US Cement LLC,Carroll,PC - Penalty Collected,2020-11-30T00:00:00.000,675 Quaker Hill Road,"Union Bridge,MD,21791",
-169381,"Chalk Point Power, LLC",Prince George's,PC - Penalty Collected,2024-07-05T00:00:00.000,25100 Chalk Point Road,"Aquasco,MD,20608",
-169381,"Chalk Point Power, LLC",Prince George's,92 - State Civil Penalty Assessed,2024-05-21T00:00:00.000,25100 Chalk Point Road,"Aquasco,MD,20608",
-143545,Horseshoe Casino Baltimore,Baltimore City,PC - Penalty Collected,2024-09-06T00:00:00.000,2105 Haines St (Central Utility Plant),"Baltimore,MD,21230",
-143545,Horseshoe Casino Baltimore,Baltimore City,48 - State Administrative Consent Order Signed,2024-07-29T00:00:00.000,2105 Haines St (Central Utility Plant),"Baltimore,MD,21230",
-439,"Curtis Bay Energy, LP",Baltimore City,CR - State Civil Referral,2024-04-22T00:00:00.000,3200 Hawkins Point Road,"Baltimore,MD,21226",
-26688,"Lifoam Industries, LLC",Harford,PC - Penalty Collected,2022-08-08T00:00:00.000,121 Bata Boulevard,"Belcamp,MD,21017",
-26688,"Lifoam Industries, LLC",Harford,92 - State Civil Penalty Assessed,2022-06-08T00:00:00.000,121 Bata Boulevard,"Belcamp,MD,21017",
-3830,Amrize Cement Inc,Baltimore,92 - State Civil Penalty Assessed,2023-09-27T00:00:00.000,950 Wharf Rd Gate 15b,"Sparrows Point,MD,21219",
-3830,Amrize Cement Inc,Baltimore,48 - State Administrative Consent Order Signed,2023-09-27T00:00:00.000,950 Wharf Rd Gate 15b,"Sparrows Point,MD,21219",
-3830,Amrize Cement Inc,Baltimore,PC - Penalty Collected,2023-10-04T00:00:00.000,950 Wharf Rd Gate 15b,"Sparrows Point,MD,21219",
-3830,Amrize Cement Inc,Baltimore,CR - State Civil Referral,2021-07-12T00:00:00.000,950 Wharf Rd Gate 15b,"Sparrows Point,MD,21219",
-8739,American Yeast Corporation,Baltimore,PC - Penalty Collected,2023-10-20T00:00:00.000,8215 Beachwood Rd,"Dundalk,MD,21222",
-8739,American Yeast Corporation,Baltimore,92 - State Civil Penalty Assessed,2023-06-29T00:00:00.000,8215 Beachwood Rd,"Dundalk,MD,21222",
-1792,US Coast Guard Yard (USCG Yard),Anne Arundel,LV - Letter of Violation,2021-12-14T00:00:00.000,2401 Hawkins Point Rd,"Curtis Bay,MD,21226",
-109835,"American Crematory, LLC",Charles,PC - Penalty Collected,2023-02-05T00:00:00.000,4445 Crain Highway,"White Plains,MD,20695",
-109835,"American Crematory, LLC",Charles,92 - State Civil Penalty Assessed,2022-12-16T00:00:00.000,4445 Crain Highway,"White Plains,MD,20695",
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,PC - Penalty Collected,2023-02-15T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,92 - State Civil Penalty Assessed,2023-01-12T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,CR - State Civil Referral,2023-11-29T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",
-20514,"CCL Label, Inc.",Baltimore City,PC - Penalty Collected,2021-01-21T00:00:00.000,"1831 Portal St, Unit D, Unit D","Baltimore,MD,21224",
-20514,"CCL Label, Inc.",Baltimore City,92 - State Civil Penalty Assessed,2020-12-08T00:00:00.000,"1831 Portal St, Unit D, Unit D","Baltimore,MD,21224",
-3830,Amrize Cement Inc,Baltimore,PC - Penalty Collected,2021-05-06T00:00:00.000,950 Wharf Rd Gate 15b,"Sparrows Point,MD,21219",
-3830,Amrize Cement Inc,Baltimore,92 - State Civil Penalty Assessed,2021-03-15T00:00:00.000,950 Wharf Rd Gate 15b,"Sparrows Point,MD,21219",
-31805,Gaylord Entertainment Company,Prince George's,CR - State Civil Referral,2023-12-01T00:00:00.000,701 National Harbor Blvd,"Oxon Hill,MD,20745",
-2087,Perdue AgriBusiness LLC,Wicomico,CR - State Civil Referral,2024-04-11T00:00:00.000,6906 Zion Church Road,"Salisbury,MD,21804",
-2087,Perdue AgriBusiness LLC,Wicomico,PC - Penalty Collected,2025-03-31T00:00:00.000,6906 Zion Church Road,"Salisbury,MD,21804",
-2087,Perdue AgriBusiness LLC,Wicomico,48 - State Administrative Consent Order Signed,2025-02-18T00:00:00.000,6906 Zion Church Road,"Salisbury,MD,21804",
-1873,V Luke LLC,,46 - State Court Consent Decree Signed,2021-03-31T00:00:00.000,300 Pratt Street,"Luke,MD,21540-1099",
-8449,Back River WWTP,Baltimore,LV - Letter of Violation,2024-10-02T00:00:00.000,8201 Eastern Ave,"Baltimore,MD,21224",
-93478,"Parkway Generation Operating, LLC - Keys Energy Center LLC",Prince George's,CR - State Civil Referral,2021-06-24T00:00:00.000,10322 N. Keys Road,"Brandywine,MD,20613-8200",
-5287,"Cove Point LNG, LP",Calvert,LV - Letter of Violation,2023-12-05T00:00:00.000,2100 Cove Point Road,"Lusby,MD,20657",
-582,Middle River Aerostructure Systems,Baltimore,PC - Penalty Collected,2023-08-22T00:00:00.000,103 Chesapeake Park Plaza,"Middle River,MD,21220",
-582,Middle River Aerostructure Systems,Baltimore,92 - State Civil Penalty Assessed,2023-07-19T00:00:00.000,103 Chesapeake Park Plaza,"Middle River,MD,21220",
-155310,Reese Transportation,Worcester,PC - Penalty Collected,2024-10-15T00:00:00.000,1976 Worcester Hwy,"Pocomoke City,MD,21851",
-155310,Reese Transportation,Worcester,92 - State Civil Penalty Assessed,2024-08-28T00:00:00.000,1976 Worcester Hwy,"Pocomoke City,MD,21851",
-130591,EPA Baltimore City,Baltimore City,92 - State Civil Penalty Assessed,2022-02-02T00:00:00.000,100 N Holiday St,"Baltimore,MD,21201",
-130591,EPA Baltimore City,Baltimore City,PC - Penalty Collected,2022-05-17T00:00:00.000,100 N Holiday St,"Baltimore,MD,21201",
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,PC - Penalty Collected,2023-01-24T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,SD - State Demand Letter (Stipulated Penalty),2022-12-20T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",
-439,"Curtis Bay Energy, LP",Baltimore City,CR - State Civil Referral,2023-10-23T00:00:00.000,3200 Hawkins Point Road,"Baltimore,MD,21226",
-20603,APG-Edgewood Area,Harford,LV - Letter of Violation,2021-09-17T00:00:00.000,Edgewood Area-Aberdeen Proving Ground,"Aberdeen Proving Ground,MD,21010",
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,CR - State Civil Referral,2023-10-31T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",
-10963,USDA Beltsville Agriculture Research Center,Prince George's,47 - State Administrative Corrective Order Issued,2022-03-24T00:00:00.000,10300 Baltimore Ave,"Beltsville,MD,20705",
-10261,CSX Transportation - Curtis Bay Piers,Baltimore City,PC - Penalty Collected,2023-01-27T00:00:00.000,1910 Benhill Ave,"Curtis Bay,MD,21226",
-10261,CSX Transportation - Curtis Bay Piers,Baltimore City,48 - State Administrative Consent Order Signed,2022-12-23T00:00:00.000,1910 Benhill Ave,"Curtis Bay,MD,21226",
-8739,American Yeast Corporation,Baltimore,92 - State Civil Penalty Assessed,2022-09-09T00:00:00.000,8215 Beachwood Rd,"Dundalk,MD,21222",
-8739,American Yeast Corporation,Baltimore,PC - Penalty Collected,2022-11-02T00:00:00.000,8215 Beachwood Rd,"Dundalk,MD,21222",
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,SD - State Demand Letter (Stipulated Penalty),2023-03-17T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",
-2255,Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant),Washington,PC - Penalty Collected,2023-04-23T00:00:00.000,1260 Security Road,"Hagerstown,MD,21742",
-131279,EPA Washington County,Washington,PC - Penalty Collected,2023-12-20T00:00:00.000,111 West Washington Street,"Hagerstown,MD,21740",
-131279,EPA Washington County,Washington,92 - State Civil Penalty Assessed,2023-11-21T00:00:00.000,111 West Washington Street,"Hagerstown,MD,21740",
-1853,Sherwin-Williams,Baltimore City,CR - State Civil Referral,2024-07-17T00:00:00.000,2325 Hollins Ferry Road,"Baltimore,MD,21230",
-3946,Constellation Power - Perryman Generating Station,Harford,92 - State Civil Penalty Assessed,2024-04-12T00:00:00.000,900 Chelsea Rd,"Aberdeen,MD,21001",
-3946,Constellation Power - Perryman Generating Station,Harford,PC - Penalty Collected,2024-05-20T00:00:00.000,900 Chelsea Rd,"Aberdeen,MD,21001",
+county,action_description,achieved_date,addressinfo,documents,city,state,zip,ai_combined
+Prince George's,2E - State HPV Day Zero,2021-02-04T00:00:00.000,10322 N. Keys Road,,Brandywine,MD,20613,"93478 - Parkway Generation Operating, LLC - Keys Energy Center LLC"
+Wicomico,2E - State HPV Day Zero,2022-02-23T00:00:00.000,6906 Zion Church Road,{'url': 'https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2880856'},Salisbury,MD,21804,2087 - Perdue AgriBusiness LLC
+Harford,2E - State HPV Day Zero,2021-12-16T00:00:00.000,"1804 Fashion Ct, Stes 113-120",{'url': 'https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2835530'},Joppa,MD,21085,"89765 - Bizerba Label Solutions, Inc"
+St. Mary's,2E - State HPV Day Zero,2021-03-18T00:00:00.000,"22445 Peary Road, Building 504",{'url': 'https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2749686'},Patuxent River,MD,20670,1815 - Naval Air Station Patuxent River
+Washington,SD - State Demand Letter (Stipulated Penalty),2023-03-17T00:00:00.000,1260 Security Road,{'url': 'https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2994195'},Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Baltimore City,48 - State Administrative Consent Order Signed,2022-12-23T00:00:00.000,1910 Benhill Ave,{'url': 'https://mdedataviewer.mde.state.md.us/OpenDataDocuments?ID=2969555'},Curtis Bay,MD,21226,10261 - CSX Transportation - Curtis Bay Piers
+Prince George's,2E - State HPV Day Zero,2021-09-20T00:00:00.000,10300 Baltimore Ave,,Beltsville,MD,20705,10963 - USDA Beltsville Agriculture Research Center
+Baltimore City,CR - State Civil Referral,2024-10-01T00:00:00.000,1910 Benhill Ave,,Curtis Bay,MD,21226,10261 - CSX Transportation - Curtis Bay Piers
+Harford,92 - State Civil Penalty Assessed,2024-08-05T00:00:00.000,1804 Fashion Court,,Joppa,MD,21085,"89765 - Bizerba Label Solutions, Inc"
+Harford,PC - Penalty Collected,2024-09-26T00:00:00.000,1804 Fashion Court,,Joppa,MD,21085,"89765 - Bizerba Label Solutions, Inc"
+Baltimore,92 - State Civil Penalty Assessed,2022-10-19T00:00:00.000,107 Beaver Ct,,Cockeysville,MD,21030,4325 - Saft America Inc
+Baltimore,PC - Penalty Collected,2022-11-25T00:00:00.000,107 Beaver Ct,,Cockeysville,MD,21030,4325 - Saft America Inc
+Baltimore,92 - State Civil Penalty Assessed,2023-02-08T00:00:00.000,7801 Fitch Lane,,Nottingham,MD,21236,7045 - Schmidt Baking Co
+Baltimore,PC - Penalty Collected,2023-02-27T00:00:00.000,7801 Fitch Lane,,Nottingham,MD,21236,7045 - Schmidt Baking Co
+Baltimore,92 - State Civil Penalty Assessed,2024-01-24T00:00:00.000,917 Middle River Rd,,Middle River,MD,21220,"147183 - Vac Pac, Inc"
+Baltimore,PC - Penalty Collected,2024-03-05T00:00:00.000,917 Middle River Rd,,Middle River,MD,21220,"147183 - Vac Pac, Inc"
+Baltimore City,CR - State Civil Referral,2023-11-29T00:00:00.000,3200 Hawkins Point Road,,Baltimore,MD,21226,"439 - Curtis Bay Energy, LP"
+Dorchester,92 - State Civil Penalty Assessed,2023-03-15T00:00:00.000,501 Court Ln,,Cambridge,MD,21613,131267 - EPA Dorchester County
+Dorchester,PC - Penalty Collected,2023-08-30T00:00:00.000,501 Court Ln,,Cambridge,MD,21613,131267 - EPA Dorchester County
+Montgomery,47 - State Administrative Corrective Order Issued,2021-07-16T00:00:00.000,8901 Wisconsin Ave,,Bethesda,MD,20889,29 - Naval Support Activity Bethesda
+Baltimore City,92 - State Civil Penalty Assessed,2024-01-10T00:00:00.000,900 Chesapeake Ave,,Brooklyn,MD,21225,"119385 - CSX Transportation, Inc"
+Baltimore City,PC - Penalty Collected,2024-02-24T00:00:00.000,900 Chesapeake Ave,,Brooklyn,MD,21225,"119385 - CSX Transportation, Inc"
+Baltimore City,92 - State Civil Penalty Assessed,2022-01-21T00:00:00.000,3200 Hawkins Point Road,,Baltimore,MD,21226,"439 - Curtis Bay Energy, LP"
+Baltimore City,PC - Penalty Collected,2022-02-25T00:00:00.000,3200 Hawkins Point Road,,Baltimore,MD,21226,"439 - Curtis Bay Energy, LP"
+Baltimore City,CR - State Civil Referral,2024-03-14T00:00:00.000,3200 Hawkins Point Road,,Baltimore,MD,21226,"439 - Curtis Bay Energy, LP"
+Baltimore City,48 - State Administrative Consent Order Signed,2022-06-07T00:00:00.000,2301 S Newkirk St,,Highlandtown,MD,21224,16681 - Gold Bond Building Products
+Baltimore City,PC - Penalty Collected,2022-07-06T00:00:00.000,2301 S Newkirk St,,Highlandtown,MD,21224,16681 - Gold Bond Building Products
+Baltimore,92 - State Civil Penalty Assessed,2024-04-30T00:00:00.000,"9601 Pulaski Park Dr, Ste 401",,Middle River,MD,21220,"64857 - MANN-PAK, Inc."
+Baltimore,PC - Penalty Collected,2024-05-29T00:00:00.000,"9601 Pulaski Park Dr, Ste 401",,Middle River,MD,21220,"64857 - MANN-PAK, Inc."
+Garrett,92 - State Civil Penalty Assessed,2021-02-08T00:00:00.000,293 Table Rock Road,,Oakland,MD,21550,"3511 - Mettiki Coal, LLC"
+Garrett,PC - Penalty Collected,2021-03-19T00:00:00.000,293 Table Rock Road,,Oakland,MD,21550,"3511 - Mettiki Coal, LLC"
+Harford,48 - State Administrative Consent Order Signed,2021-04-12T00:00:00.000,900 Chelsea Rd,,Aberdeen,MD,21001,3946 - Constellation Power - Perryman Generating Station
+Harford,PC - Penalty Collected,2021-05-04T00:00:00.000,900 Chelsea Rd,,Aberdeen,MD,21001,3946 - Constellation Power - Perryman Generating Station
+Wicomico,92 - State Civil Penalty Assessed,2022-08-17T00:00:00.000,6906 Zion Church Road,,Salisbury,MD,21804,2087 - Perdue AgriBusiness LLC
+Wicomico,PC - Penalty Collected,2022-09-16T00:00:00.000,6906 Zion Church Road,,Salisbury,MD,21804,2087 - Perdue AgriBusiness LLC
+Harford,PC - Penalty Collected,2022-08-08T00:00:00.000,"1804 Fashion Ct, Stes 113-120",,Joppa,MD,21085,"89765 - Bizerba Label Solutions, Inc"
+Harford,92 - State Civil Penalty Assessed,2022-06-03T00:00:00.000,"1804 Fashion Ct, Stes 113-120",,Joppa,MD,21085,"89765 - Bizerba Label Solutions, Inc"
+Wicomico,46 - State Court Consent Decree Signed,2024-07-26T00:00:00.000,6906 Zion Church Road,,Salisbury,MD,21804,2087 - Perdue AgriBusiness LLC
+Wicomico,CR - State Civil Referral,2023-05-25T00:00:00.000,6906 Zion Church Road,,Salisbury,MD,21804,2087 - Perdue AgriBusiness LLC
+Baltimore City,PC - Penalty Collected,2024-08-27T00:00:00.000,5500 Chemical Rd,,Curtis Bay,MD,21226,2102 - W. R. Grace & Co. - Curtis Bay Works
+Baltimore City,92 - State Civil Penalty Assessed,2024-07-30T00:00:00.000,5500 Chemical Rd,,Curtis Bay,MD,21226,2102 - W. R. Grace & Co. - Curtis Bay Works
+Charles,LV - Letter of Violation,2024-06-18T00:00:00.000,"3972 Ward Rd, Ste 101, Environmental Program Office",,Indian Head,MD,20640,1788 - Naval Support Facility Indian Head
+Harford,PC - Penalty Collected,2024-04-12T00:00:00.000,1300 Brass Mill Road,,Belcamp,MD,21017,7713 - Independent Can Company
+Harford,92 - State Civil Penalty Assessed,2024-02-26T00:00:00.000,1300 Brass Mill Road,,Belcamp,MD,21017,7713 - Independent Can Company
+Prince George's,PC - Penalty Collected,2022-02-24T00:00:00.000,10322 N. Keys Road,,Brandywine,MD,20613,"93478 - Parkway Generation Operating, LLC - Keys Energy Center LLC"
+Prince George's,48 - State Administrative Consent Order Signed,2022-01-19T00:00:00.000,10322 N. Keys Road,,Brandywine,MD,20613,"93478 - Parkway Generation Operating, LLC - Keys Energy Center LLC"
+Dorchester,PC - Penalty Collected,2023-01-23T00:00:00.000,5420 Linkwood Road,,Linkwood,MD,21835,"6191 - Darling Ingredients, Inc. - Linkwood"
+Dorchester,46 - State Court Consent Decree Signed,2022-09-12T00:00:00.000,5420 Linkwood Road,,Linkwood,MD,21835,"6191 - Darling Ingredients, Inc. - Linkwood"
+Harford,PC - Penalty Collected,2021-04-19T00:00:00.000,121 Bata Boulevard,,Belcamp,MD,21017,"26688 - Lifoam Industries, LLC"
+Harford,92 - State Civil Penalty Assessed,2021-04-02T00:00:00.000,121 Bata Boulevard,,Belcamp,MD,21017,"26688 - Lifoam Industries, LLC"
+Baltimore,LV - Letter of Violation,2023-12-04T00:00:00.000,8215 Beachwood Rd,,Dundalk,MD,21222,8739 - American Yeast Corporation
+Wicomico,PC - Penalty Collected,2021-06-21T00:00:00.000,6906 Zion Church Road,,Salisbury,MD,21804,2087 - Perdue AgriBusiness LLC
+Wicomico,92 - State Civil Penalty Assessed,2021-05-18T00:00:00.000,6906 Zion Church Road,,Salisbury,MD,21804,2087 - Perdue AgriBusiness LLC
+Washington,PC - Penalty Collected,2022-03-22T00:00:00.000,1260 Security Road,,Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Washington,48 - State Administrative Consent Order Signed,2022-01-26T00:00:00.000,1260 Security Road,,Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Carroll,PC - Penalty Collected,2020-11-30T00:00:00.000,675 Quaker Hill Road,,Union Bridge,MD,21791,2167 - Heidelberg Materials US Cement LLC
+Carroll,46 - State Court Consent Decree Signed,2020-11-18T00:00:00.000,675 Quaker Hill Road,,Union Bridge,MD,21791,2167 - Heidelberg Materials US Cement LLC
+Prince George's,PC - Penalty Collected,2024-07-05T00:00:00.000,25100 Chalk Point Road,,Aquasco,MD,20608,"169381 - Chalk Point Power, LLC"
+Prince George's,92 - State Civil Penalty Assessed,2024-05-21T00:00:00.000,25100 Chalk Point Road,,Aquasco,MD,20608,"169381 - Chalk Point Power, LLC"
+Baltimore City,PC - Penalty Collected,2024-09-06T00:00:00.000,2105 Haines St (Central Utility Plant),,Baltimore,MD,21230,143545 - Horseshoe Casino Baltimore
+Baltimore City,48 - State Administrative Consent Order Signed,2024-07-29T00:00:00.000,2105 Haines St (Central Utility Plant),,Baltimore,MD,21230,143545 - Horseshoe Casino Baltimore
+Baltimore City,CR - State Civil Referral,2024-04-22T00:00:00.000,3200 Hawkins Point Road,,Baltimore,MD,21226,"439 - Curtis Bay Energy, LP"
+Harford,PC - Penalty Collected,2022-08-08T00:00:00.000,121 Bata Boulevard,,Belcamp,MD,21017,"26688 - Lifoam Industries, LLC"
+Harford,92 - State Civil Penalty Assessed,2022-06-08T00:00:00.000,121 Bata Boulevard,,Belcamp,MD,21017,"26688 - Lifoam Industries, LLC"
+Baltimore,48 - State Administrative Consent Order Signed,2023-09-27T00:00:00.000,950 Wharf Rd Gate 15b,,Sparrows Point,MD,21219,3830 - Amrize Cement Inc
+Baltimore,92 - State Civil Penalty Assessed,2023-09-27T00:00:00.000,950 Wharf Rd Gate 15b,,Sparrows Point,MD,21219,3830 - Amrize Cement Inc
+Baltimore,CR - State Civil Referral,2021-07-12T00:00:00.000,950 Wharf Rd Gate 15b,,Sparrows Point,MD,21219,3830 - Amrize Cement Inc
+Baltimore,PC - Penalty Collected,2023-10-04T00:00:00.000,950 Wharf Rd Gate 15b,,Sparrows Point,MD,21219,3830 - Amrize Cement Inc
+Baltimore,92 - State Civil Penalty Assessed,2023-06-29T00:00:00.000,8215 Beachwood Rd,,Dundalk,MD,21222,8739 - American Yeast Corporation
+Baltimore,PC - Penalty Collected,2023-10-20T00:00:00.000,8215 Beachwood Rd,,Dundalk,MD,21222,8739 - American Yeast Corporation
+Anne Arundel,LV - Letter of Violation,2021-12-14T00:00:00.000,2401 Hawkins Point Rd,,Curtis Bay,MD,21226,1792 - US Coast Guard Yard (USCG Yard)
+Charles,92 - State Civil Penalty Assessed,2022-12-16T00:00:00.000,4445 Crain Highway,,White Plains,MD,20695,"109835 - American Crematory, LLC"
+Charles,PC - Penalty Collected,2023-02-05T00:00:00.000,4445 Crain Highway,,White Plains,MD,20695,"109835 - American Crematory, LLC"
+Washington,92 - State Civil Penalty Assessed,2023-01-12T00:00:00.000,1260 Security Road,,Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Washington,PC - Penalty Collected,2023-02-15T00:00:00.000,1260 Security Road,,Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Washington,CR - State Civil Referral,2023-11-29T00:00:00.000,1260 Security Road,,Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Baltimore City,PC - Penalty Collected,2021-01-21T00:00:00.000,"1831 Portal St, Unit D, Unit D",,Baltimore,MD,21224,"20514 - CCL Label, Inc."
+Baltimore City,92 - State Civil Penalty Assessed,2020-12-08T00:00:00.000,"1831 Portal St, Unit D, Unit D",,Baltimore,MD,21224,"20514 - CCL Label, Inc."
+Baltimore,92 - State Civil Penalty Assessed,2021-03-15T00:00:00.000,950 Wharf Rd Gate 15b,,Sparrows Point,MD,21219,3830 - Amrize Cement Inc
+Baltimore,PC - Penalty Collected,2021-05-06T00:00:00.000,950 Wharf Rd Gate 15b,,Sparrows Point,MD,21219,3830 - Amrize Cement Inc
+Prince George's,CR - State Civil Referral,2023-12-01T00:00:00.000,701 National Harbor Blvd,,Oxon Hill,MD,20745,31805 - Gaylord Entertainment Company
+Wicomico,CR - State Civil Referral,2024-04-11T00:00:00.000,6906 Zion Church Road,,Salisbury,MD,21804,2087 - Perdue AgriBusiness LLC
+Wicomico,48 - State Administrative Consent Order Signed,2025-02-18T00:00:00.000,6906 Zion Church Road,,Salisbury,MD,21804,2087 - Perdue AgriBusiness LLC
+Wicomico,PC - Penalty Collected,2025-03-31T00:00:00.000,6906 Zion Church Road,,Salisbury,MD,21804,2087 - Perdue AgriBusiness LLC
+,46 - State Court Consent Decree Signed,2021-03-31T00:00:00.000,300 Pratt Street,,Luke,MD,21540,1873 - V Luke LLC
+Baltimore,LV - Letter of Violation,2024-10-02T00:00:00.000,8201 Eastern Ave,,Baltimore,MD,21224,8449 - Back River WWTP
+Prince George's,CR - State Civil Referral,2021-06-24T00:00:00.000,10322 N. Keys Road,,Brandywine,MD,20613,"93478 - Parkway Generation Operating, LLC - Keys Energy Center LLC"
+Calvert,LV - Letter of Violation,2023-12-05T00:00:00.000,2100 Cove Point Road,,Lusby,MD,20657,"5287 - Cove Point LNG, LP"
+Baltimore,PC - Penalty Collected,2023-08-22T00:00:00.000,103 Chesapeake Park Plaza,,Middle River,MD,21220,582 - Middle River Aerostructure Systems
+Baltimore,92 - State Civil Penalty Assessed,2023-07-19T00:00:00.000,103 Chesapeake Park Plaza,,Middle River,MD,21220,582 - Middle River Aerostructure Systems
+Worcester,PC - Penalty Collected,2024-10-15T00:00:00.000,1976 Worcester Hwy,,Pocomoke City,MD,21851,155310 - Reese Transportation
+Worcester,92 - State Civil Penalty Assessed,2024-08-28T00:00:00.000,1976 Worcester Hwy,,Pocomoke City,MD,21851,155310 - Reese Transportation
+Baltimore City,92 - State Civil Penalty Assessed,2022-02-02T00:00:00.000,100 N Holiday St,,Baltimore,MD,21201,130591 - EPA Baltimore City
+Baltimore City,PC - Penalty Collected,2022-05-17T00:00:00.000,100 N Holiday St,,Baltimore,MD,21201,130591 - EPA Baltimore City
+Washington,SD - State Demand Letter (Stipulated Penalty),2022-12-20T00:00:00.000,1260 Security Road,,Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Washington,PC - Penalty Collected,2023-01-24T00:00:00.000,1260 Security Road,,Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Baltimore City,CR - State Civil Referral,2023-10-23T00:00:00.000,3200 Hawkins Point Road,,Baltimore,MD,21226,"439 - Curtis Bay Energy, LP"
+Harford,LV - Letter of Violation,2021-09-17T00:00:00.000,Edgewood Area-Aberdeen Proving Ground,,Aberdeen Proving Ground,MD,21010,20603 - APG-Edgewood Area
+Washington,CR - State Civil Referral,2023-10-31T00:00:00.000,1260 Security Road,,Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Prince George's,47 - State Administrative Corrective Order Issued,2022-03-24T00:00:00.000,10300 Baltimore Ave,,Beltsville,MD,20705,10963 - USDA Beltsville Agriculture Research Center
+Baltimore City,PC - Penalty Collected,2023-01-27T00:00:00.000,1910 Benhill Ave,,Curtis Bay,MD,21226,10261 - CSX Transportation - Curtis Bay Piers
+Baltimore City,48 - State Administrative Consent Order Signed,2022-12-23T00:00:00.000,1910 Benhill Ave,,Curtis Bay,MD,21226,10261 - CSX Transportation - Curtis Bay Piers
+Baltimore,92 - State Civil Penalty Assessed,2022-09-09T00:00:00.000,8215 Beachwood Rd,,Dundalk,MD,21222,8739 - American Yeast Corporation
+Baltimore,PC - Penalty Collected,2022-11-02T00:00:00.000,8215 Beachwood Rd,,Dundalk,MD,21222,8739 - American Yeast Corporation
+Washington,PC - Penalty Collected,2023-04-23T00:00:00.000,1260 Security Road,,Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Washington,SD - State Demand Letter (Stipulated Penalty),2023-03-17T00:00:00.000,1260 Security Road,,Hagerstown,MD,21742,2255 - Amrize Hagerstown Cement Plant (Formerly Holcim Hagerstown Cement Plant)
+Washington,PC - Penalty Collected,2023-12-20T00:00:00.000,111 West Washington Street,,Hagerstown,MD,21740,131279 - EPA Washington County
+Washington,92 - State Civil Penalty Assessed,2023-11-21T00:00:00.000,111 West Washington Street,,Hagerstown,MD,21740,131279 - EPA Washington County
+Baltimore City,CR - State Civil Referral,2024-07-17T00:00:00.000,2325 Hollins Ferry Road,,Baltimore,MD,21230,1853 - Sherwin-Williams
+Harford,92 - State Civil Penalty Assessed,2024-04-12T00:00:00.000,900 Chelsea Rd,,Aberdeen,MD,21001,3946 - Constellation Power - Perryman Generating Station
+Harford,PC - Penalty Collected,2024-05-20T00:00:00.000,900 Chelsea Rd,,Aberdeen,MD,21001,3946 - Constellation Power - Perryman Generating Station
