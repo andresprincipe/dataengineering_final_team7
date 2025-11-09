@@ -18,6 +18,7 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 
 # File/Directory Descriptions
 - `fetchdata.py` is meant to be an initial script that retrieves data from APIs then processes them into cleaned CSV files that can be uploaded into a database.
+- `mdprocessingutils.py` is a module that contains helper functions for processing parts of the Maryland API data before it is ingested into a database.
 - `raw_data/` is a intermediate directory used by `fetchdata.py` to store data retrieved from GET requests in their native JSON format.
 - `clean_data/` is a directory used by `fetchdata.py` to store processed versions of the data found in `raw_data/`. The data in this directory is in CSV format for the purposes of ingestion into a database.
 - `MD_Database.sql` is the creating of the sql database that the cleaned csv files will be uploaded to.
