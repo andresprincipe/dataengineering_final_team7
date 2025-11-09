@@ -21,4 +21,9 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 - `raw_data/` is a intermediate directory used by `fetchdata.py` to store data retrieved from GET requests in their native JSON format.
 - `clean_data/` is a directory used by `fetchdata.py` to store processed versions of the data found in `raw_data/`. The data in this directory is in CSV format for the purposes of ingestion into a database.
 
+# Instructions
+
+... add Docker install instructions with appropriate commands ...
+
+... add any aditional set up instructions ...
 
