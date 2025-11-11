@@ -5,54 +5,66 @@ from ..schemas import EnforcementSummary
 
 router = APIRouter()
 
+
 @router.get("", response_model=List[EnforcementSummary], summary="Enforcement counts by county/year")
 def get_enforcement_summary(
     county: Optional[str] = Query(default=None),
     year: Optional[int] = Query(default=None, ge=1900, le=2100),
     source: Optional[str] = Query(default=None),
-    limit: int = Query(default=500, ge=1, le=10000),
+    limit: int = Query(default=1000, ge=1, le=10000),
 ):
-    params = {}
-    where = []
+    params = {"limit": limit}
+    wh = []
     if county:
         params["county"] = f"%{county}%"
-        where.append("(c.name ILIKE :county OR e.county ILIKE :county)")
+        wh.append("(x.county ILIKE :county)")
     if year:
         params["year"] = year
-        where.append("(EXTRACT(YEAR FROM e.action_date)::int = :year OR e.year = :year)")
+        wh.append("x.year = :year")
     if source:
-        params["source"] = source
-        where.append("(e.source = :source)")
-    where_sql = f"WHERE {' AND '.join(where)}" if where else ""
-    params["limit"] = limit
-    queries = [
-        f"""
+        params["source"] = source.lower()
+        wh.append("x.source = :source")
+    where_sql = f"WHERE {' AND '.join(wh)}" if wh else ""
+
+    q = f"""
+    WITH air AS (
         SELECT
-            COALESCE(c.name, e.county) AS county,
-            EXTRACT(YEAR FROM e.action_date)::int AS year,
-            COUNT(*)::int AS total_enforcements,
-            MIN(e.source) AS source
-        FROM enforcements e
-        LEFT JOIN counties c ON e.county_id = c.id
-        {where_sql}
-        GROUP BY COALESCE(c.name, e.county), EXTRACT(YEAR FROM e.action_date)
-        ORDER BY county, year
-        LIMIT :limit
-        """,
-        f"""
+            c.county_name AS county,
+            NULLIF(substring(a.achieved_date FROM '^[0-9]{{4}}'), '')::int AS year,
+            'air'::text AS source
+        FROM air_enforcements_md a
+        LEFT JOIN counties c ON c.county_id = a.county_id
+    ),
+    water AS (
         SELECT
-            e.county AS county,
-            e.year::int AS year,
-            COUNT(*)::int AS total_enforcements,
-            MIN(e.source) AS source
-        FROM enforcements e
-        {where_sql}
-        GROUP BY e.county, e.year
-        ORDER BY county, year
-        LIMIT :limit
-        """,
-    ]
-    rows = try_queries(queries, params)
+            c.county_name AS county,
+            NULLIF(substring(w.case_closed FROM '^[0-9]{{4}}'), '')::int AS year,
+            'water'::text AS source
+        FROM water_enforcements_md w
+        LEFT JOIN counties c ON c.county_id = w.county_id
+    ),
+    unioned AS (
+        SELECT * FROM air
+        UNION ALL
+        SELECT * FROM water
+    ),
+    x AS (
+        SELECT county, year, source
+        FROM unioned
+        WHERE county IS NOT NULL AND year IS NOT NULL
+    )
+    SELECT
+        x.county,
+        x.year,
+        COUNT(*)::int AS total_enforcements,
+        MIN(x.source) AS source
+    FROM x
+    {where_sql}
+    GROUP BY x.county, x.year
+    ORDER BY x.county, x.year
+    LIMIT :limit
+    """
+    rows = try_queries([q], params)
     return [
         {
             "county": r.county,
