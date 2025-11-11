@@ -47,7 +47,7 @@ CREATE TABLE MD_data.AverageWagePerCounty (
     Year INT NOT NULL,
     County_ID INT NOT NULL,
     FOREIGN KEY (Year) REFERENCES MD_data.AverageWageMaryland(Year),
-    FOREIGN KEY (County_ID) REFERENCES MD_data.CountiesInMD(County_ID)
+    FOREIGN KEY (County_ID) REFERENCES MD_data.Counties(County_ID)
 );
 
 -- =========================================================
@@ -63,7 +63,7 @@ CREATE TABLE MD_data.AirEnforcementsInMD (
     ZipCode INT,
     County_ID INT,
     Documents VARCHAR(50),
-    FOREIGN KEY (County_ID) REFERENCES MD_data.CountiesInMD(County_ID)
+    FOREIGN KEY (County_ID) REFERENCES MD_data.Counties(County_ID)
 );
 
 -- =========================================================
@@ -83,5 +83,5 @@ CREATE TABLE MD_data.WaterEnforcementsInMD (
     EnforcementActionIssued VARCHAR(50),
     CaseClosed VARCHAR(50),
     Media VARCHAR(50),
-    FOREIGN KEY (County_ID) REFERENCES MD_data.CountiesInMD(County_ID)
+    FOREIGN KEY (County_ID) REFERENCES MD_data.Counties(County_ID)
 );
