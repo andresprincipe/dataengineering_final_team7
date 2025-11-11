@@ -7,56 +7,51 @@ router = APIRouter()
 
 @router.get("", response_model=List[EnforcementSummary], summary="Enforcement counts by county/year")
 def get_enforcement_summary(
-    county: Optional[str] = Query(default=None, description="County name (ILIKE)"),
+    county: Optional[str] = Query(default=None),
     year: Optional[int] = Query(default=None, ge=1900, le=2100),
-    source: Optional[str] = Query(default=None, description="Data source filter, e.g., 'air' or 'water'"),
+    source: Optional[str] = Query(default=None),
     limit: int = Query(default=500, ge=1, le=10000),
 ):
-    params = {"limit": limit}
+    params = {}
     where = []
-
     if county:
         params["county"] = f"%{county}%"
-        where.append("(c.county_name ILIKE :county OR COALESCE(e.county, '') ILIKE :county)")
-
+        where.append("(c.name ILIKE :county OR e.county ILIKE :county)")
     if year:
         params["year"] = year
-        where.append("(COALESCE(EXTRACT(YEAR FROM e.action_date)::int, e.year::int) = :year)")
-
+        where.append("(EXTRACT(YEAR FROM e.action_date)::int = :year OR e.year = :year)")
     if source:
-        params["source"] = source.lower()
-        where.append("(LOWER(e.source) = :source)")
-
+        params["source"] = source
+        where.append("(e.source = :source)")
     where_sql = f"WHERE {' AND '.join(where)}" if where else ""
-
+    params["limit"] = limit
     queries = [
         f"""
         SELECT
-            COALESCE(c.county_name, e.county) AS county,
-            COALESCE(EXTRACT(YEAR FROM e.action_date)::int, e.year::int) AS year,
+            COALESCE(c.name, e.county) AS county,
+            EXTRACT(YEAR FROM e.action_date)::int AS year,
             COUNT(*)::int AS total_enforcements,
-            MIN(LOWER(e.source)) AS source
+            MIN(e.source) AS source
         FROM enforcements e
-        LEFT JOIN counties c ON c.county_id = e.county_id
+        LEFT JOIN counties c ON e.county_id = c.id
         {where_sql}
-        GROUP BY COALESCE(c.county_name, e.county), COALESCE(EXTRACT(YEAR FROM e.action_date)::int, e.year::int)
+        GROUP BY COALESCE(c.name, e.county), EXTRACT(YEAR FROM e.action_date)
         ORDER BY county, year
         LIMIT :limit
         """,
         f"""
         SELECT
             e.county AS county,
-            COALESCE(EXTRACT(YEAR FROM e.action_date)::int, e.year::int) AS year,
+            e.year::int AS year,
             COUNT(*)::int AS total_enforcements,
-            MIN(LOWER(e.source)) AS source
+            MIN(e.source) AS source
         FROM enforcements e
         {where_sql}
-        GROUP BY e.county, COALESCE(EXTRACT(YEAR FROM e.action_date)::int, e.year::int)
+        GROUP BY e.county, e.year
         ORDER BY county, year
         LIMIT :limit
         """,
     ]
-
     rows = try_queries(queries, params)
     return [
         {
