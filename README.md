@@ -23,6 +23,18 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 - `clean_data/` is a directory used by `fetchdata.py` to store processed versions of the data found in `raw_data/`. The data in this directory is in CSV format for the purposes of ingestion into a database.
 - `MD_Database.sql` is the creating of the sql database that the cleaned csv files will be uploaded to.
 
+# API Service Directories
+- `api/` contains the FastAPI service used to query the PostgreSQL database and expose Maryland data through REST endpoints.
+- `api/app/` is the main application package for the FastAPI service.
+- `api/app/routers/` contains individual route files (e.g., `counties.py`, `wages.py`, `enforcements.py`, `health.py`) that define GET endpoints for each dataset.
+- `api/app/reports/` stores summary or combined report logic used by the API.
+- `api/app/db.py` includes database connection utilities (SQLAlchemy engine and session creation).
+- `api/app/deps.py` provides shared dependencies for the API, including database session injection.
+- `api/app/schemas.py` defines Pydantic models representing the expected structure of API responses based on the finalized table schemas.
+- `api/Dockerfile` defines how the FastAPI container is built.
+- `docker-compose.api.snippet.yml` contains the API service configuration for docker-compose, linking the API to PostgreSQL and Airflow within a shared network.
+- `dags/` contains Airflow DAGs used for automated data extraction, transformation, and refresh pipelines.
+
 # Instructions
 
 ... add Docker install instructions with appropriate commands ...
