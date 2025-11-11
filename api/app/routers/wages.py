@@ -14,52 +14,58 @@ def list_wages(
 ):
     params = {"limit": limit}
     where = []
+
     if county:
         params["county"] = f"%{county}%"
-        where.append("c.county_name ILIKE :county")
+        where.append("(c.county_name ILIKE :county OR c.name ILIKE :county OR w.county ILIKE :county)")
     if year:
         params["year"] = year
         where.append("w.year = :year")
+
     where_sql = f"WHERE {' AND '.join(where)}" if where else ""
 
-    q1 = f"""
-        SELECT 
-            c.county_name            AS county,
-            w.year::int              AS year,
-            w.wage_for_county::float AS average_wage
-        FROM average_wage_per_county w
-        JOIN counties c ON w.county_id = c.county_id
-        {where_sql}
-        ORDER BY county, year
-        LIMIT :limit
-    """
-
-    q2 = f"""
-        SELECT 
-            c.county_name            AS county,
-            w.year::int              AS year,
-            w.wage_for_county::float AS average_wage
+    queries = [
+        f"""
+        SELECT
+            COALESCE(c.county_name, c.name) AS county,
+            w.year::int                      AS year,
+            w.wage_for_county::float         AS wage_for_county
         FROM wage_per_county w
-        JOIN counties c ON w.county_id = c.county_id
+        LEFT JOIN counties c ON c.id = w.county_id
         {where_sql}
         ORDER BY county, year
         LIMIT :limit
-    """
-
-    q3 = f"""
-        SELECT 
-            COALESCE(c.county_name, w.county) AS county,
-            w.year::int                        AS year,
-            COALESCE(w.wage_for_county, w.average_wage)::float AS average_wage
+        """,
+        f"""
+        SELECT
+            COALESCE(c.county_name, c.name, w.county) AS county,
+            w.year::int                               AS year,
+            w.wage_for_county::float                  AS wage_for_county
         FROM wages w
-        LEFT JOIN counties c ON w.county_id = c.county_id
-        {where_sql.replace('c.county_name', 'COALESCE(c.county_name, w.county)')}
+        LEFT JOIN counties c ON c.id = w.county_id
+        {where_sql}
         ORDER BY county, year
         LIMIT :limit
-    """
+        """,
+        f"""
+        SELECT
+            COALESCE(c.county_name, c.name, w.county) AS county,
+            w.year::int                               AS year,
+            w.average_wage::float                     AS wage_for_county
+        FROM wages w
+        LEFT JOIN counties c ON c.id = w.county_id
+        {where_sql}
+        ORDER BY county, year
+        LIMIT :limit
+        """,
+    ]
 
-    rows = try_queries([q1, q2, q3], params)
+    rows = try_queries(queries, params)
     return [
-        {"county": r.county, "year": int(r.year), "average_wage": float(r.average_wage)}
+        {
+            "county": r.county,
+            "year": int(r.year),
+            "average_wage": float(getattr(r, "wage_for_county")),  
+        }
         for r in rows
     ]
