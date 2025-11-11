@@ -1,23 +1,26 @@
-from fastapi import APIRouter, Query
 from typing import List, Optional
-from ..db import fetch_all
+from fastapi import APIRouter, Query
+from ..db import try_queries
 from ..schemas import County
 
 router = APIRouter()
 
-@router.get("/counties", response_model=List[County], summary="List all counties")
-def list_counties(state: Optional[str] = Query(default=None, description="Filter by state abbr (e.g. MD)")):
-    if state:
-        rows = fetch_all("""
-            SELECT county_id, county_name, state
-            FROM counties
-            WHERE state = :state
-            ORDER BY county_name
-        """, {"state": state})
-    else:
-        rows = fetch_all("""
-            SELECT county_id, county_name, state
-            FROM counties
-            ORDER BY county_name
-        """)
-    return [County(**dict(r)) for r in rows]
+@router.get("", response_model=List[County], summary="List counties")
+def list_counties(q: Optional[str] = Query(default=None), limit: int = Query(default=1000, ge=1, le=10000)):
+    params = {"limit": limit}
+    where = []
+    if q:
+        params["q"] = f"%{q}%"
+        where.append("(c.name ILIKE :q)")
+    where_sql = f"WHERE {' AND '.join(where)}" if where else ""
+    queries = [
+        f"""
+        SELECT c.id AS id, c.name AS name, NULL::text AS state
+        FROM counties c
+        {where_sql}
+        ORDER BY c.name
+        LIMIT :limit
+        """
+    ]
+    rows = try_queries(queries, params)
+    return [{"id": r.id, "name": r.name, "state": getattr(r, "state", None)} for r in rows]
