@@ -1,32 +1,23 @@
-from typing import List
 from fastapi import APIRouter, Query
-from ..db import try_queries
+from typing import List, Optional
+from ..db import fetch_all
 from ..schemas import County
 
 router = APIRouter()
 
-
-@router.get("", response_model=List[County], summary="List counties")
-def list_counties(q: str | None = Query(default=None, description="Filter by county name substring")):
-	params = {}
-	queries = [
-		"""
-		SELECT id, name, fips_code AS fips
-		FROM counties
-		{where}
-		ORDER BY name
-		""".replace("{where}", "WHERE name ILIKE :q" if q else ""),
-		"""
-		SELECT NULL::int AS id, county AS name, NULL::text AS fips
-		FROM wages
-		{where}
-		GROUP BY county
-		ORDER BY county
-		""".replace("{where}", "WHERE county ILIKE :q" if q else ""),
-	]
-	if q:
-		params["q"] = f"%{q}%"
-	rows = try_queries(queries, params)
-	return [{"id": r.id, "name": r.name, "fips": getattr(r, "fips", None)} for r in rows]
-
-
+@router.get("/counties", response_model=List[County], summary="List all counties")
+def list_counties(state: Optional[str] = Query(default=None, description="Filter by state abbr (e.g. MD)")):
+    if state:
+        rows = fetch_all("""
+            SELECT county_id, county_name, state
+            FROM counties
+            WHERE state = :state
+            ORDER BY county_name
+        """, {"state": state})
+    else:
+        rows = fetch_all("""
+            SELECT county_id, county_name, state
+            FROM counties
+            ORDER BY county_name
+        """)
+    return [County(**dict(r)) for r in rows]
