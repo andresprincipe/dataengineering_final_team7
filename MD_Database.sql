@@ -21,8 +21,8 @@ CREATE SCHEMA IF NOT EXISTS MD_data;
 -- =========================================================
 -- 1. Counties in MD
 -- =========================================================
-DROP TABLE IF EXISTS MD_data.CountiesInMD CASCADE;
-CREATE TABLE MD_data.CountiesInMD (
+DROP TABLE IF EXISTS MD_data.Counties CASCADE;
+CREATE TABLE MD_data.Counties (
     County_ID INT PRIMARY KEY,
     County_Name VARCHAR(50) NOT NULL,
     State CHAR(2) NOT NULL
