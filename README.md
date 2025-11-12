@@ -37,10 +37,13 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 
 ### Quickstart
 
+Open Docker Desktop first and start!
+
+Open a new Terminal and follow the instructions.
 1) Navigate to project directory
 
 ```bash
-cd "/Users/xxx"
+cd "/Users/xxx/finalproject"
 ```
 
 2) Create your .env file
@@ -62,6 +65,7 @@ DB_PASSWORD=postgres
 CORS_ORIGINS=*
 EOF
 ```
+
 
 3)Build and run the API container
 
