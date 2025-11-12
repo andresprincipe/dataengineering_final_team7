@@ -35,25 +35,17 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 - `docker-compose.api.snippet.yml` contains the API service configuration for docker-compose, linking the API to PostgreSQL and Airflow within a shared network.
 - `dags/` contains Airflow DAGs used for automated data extraction, transformation, and refresh pipelines.
 
-### Quickstart
+# Set Up Instructions
 
-Open Docker Desktop first and start jhu-docker
+This project utilzes the postgres container within the `jhu_docker` container. So please make sure you open Docker Desktop first and start that container. Additionally, this project uses the shared network of the `jhu_docker` container. So when you follow the set up instructions, please have the `dataengineering_final_team7/` and it's contents saved within the `jhu_docker/shared/` director.y
 
 Open a new Terminal and follow the instructions.
-1) Navigate to project directory
-
-```bash
-cd "/Users/xxx/finalproject"
-```
-
-2) Create your .env file
-
+1. Navigate to where you've saved `jhu_docker/shared/dataengineering_final_team7/` on your host machine.
+2. Create your .env file
 ```bash
 cp api/env.example api/.env
 ```
-
-then overwrite this:
-
+3. then overwrite this:
 ```bash
 cat > api/.env <<'EOF'
 FASTAPI_PORT=8088
@@ -65,8 +57,7 @@ DB_PASSWORD=postgres
 CORS_ORIGINS=*
 EOF
 ```
-
-2.5）Create Docker shared network
+4. Create Docker shared network
 
 Before building the API container, make sure the shared Docker network exists:
 ```bash
@@ -75,31 +66,16 @@ docker network create shared
 If the network already exists, this command will be ignored automatically.
 
 
-3)Build and run the API container
-
+5. Build and run the API container
 ```bash
 docker compose -f docker-compose.api.yml up -d --build
 ```
 
-4)Verify the API service
+6. Verify the API service
 
 ```bash
 docker compose -f docker-compose.api.yml logs -f api
 ```
 
-5) Open Swagger UI:
-
+6. Open Swagger UI:
 - http://localhost:8088/docs
-
-# Setup Instructions
-- Download the docker .yml file to a designated folder.
-- Go into your computers terminal, and change directories to that folder to run your .yml file
-- Once in the folder with .yml run the following command
-  ```
-  docker-compose -f docker-compose.api.snippet.yml up -d
-  ```
-- open Pgadmin and connect to the server from the container
-- Run the sql script to initalize the database
-- Run python script to input data into databse
-- The name of our server is:
-- host: , port:, username:, password:
