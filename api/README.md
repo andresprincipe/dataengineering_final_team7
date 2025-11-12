@@ -2,15 +2,28 @@
 
 This service exposes a FastAPI-based Web API to query PostgreSQL data and an aggregated overview combining wage and enforcement counts.
 
+### Folder Structure
+
+Final Project/
+ ├── api/
+ │    ├── app/
+ │    ├── env.example
+ │    └── .env               ← will be created manually
+ ├── dags/
+ ├── docker-compose.api.yml
+ ├── docker-compose.api.snippet.yml
+ ├── requirements.txt
+ └── README.md
+
 ### Quickstart
 
-1) Copy env and adjust if needed:
+1) Navigate to project directory
 
-```bash
+cd "/Users/xxx"
+
+2) Create your .env file
+
 cp api/env.example api/.env
-```
-
-2) Build and run via Docker (recommended):
 
 ```bash
 docker compose build api
