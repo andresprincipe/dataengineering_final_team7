@@ -35,16 +35,15 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 - `docker-compose.api.snippet.yml` contains the API service configuration for docker-compose, linking the API to PostgreSQL and Airflow within a shared network.
 - `dags/` contains Airflow DAGs used for automated data extraction, transformation, and refresh pipelines.
 
-# Instructions
+# Setup Instructions
 - Download the docker .yml file to a designated folder.
 - Go into your computers terminal, and change directories to that folder to run your .yml file
-- Once in the folder with .yml folder run "docker-compose -f docker-compose.api.snippet.yml up -d"
+- Once in the folder with .yml run the following command
+  ```
+  docker-compose -f docker-compose.api.snippet.yml up -d
+  ```
 - open Pgadmin and connect to the server from the container
 - Run the sql script to initalize the database
 - Run python script to input data into databse
 - The name of our server is:
 - host: , port:, username:, password:
-... add Docker install instructions with appropriate commands ...
-
-... add any aditional set up instructions ...
-
