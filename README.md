@@ -39,6 +39,9 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 - Download the docker .yml file to a designated folder.
 - Go into your computers terminal, and change directories to that folder to run your .yml file
 - Once in the folder with .yml folder run "docker-compose -f docker-compose.api.snippet.yml up -d"
+- open Pgadmin and connect to the server from the container
+- Run the sql script to initalize the database
+- Run python script to input data into databse
 ... add Docker install instructions with appropriate commands ...
 
 ... add any aditional set up instructions ...
