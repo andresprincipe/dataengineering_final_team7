@@ -36,7 +36,9 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 - `dags/` contains Airflow DAGs used for automated data extraction, transformation, and refresh pipelines.
 
 # Instructions
-
+- Download the docker .yml file to a designated folder.
+- Go into your computers terminal, and change directories to that folder to run your .yml file
+- Once in the folder with .yml folder run "docker-compose -f docker-compose.api.snippet.yml up -d"
 ... add Docker install instructions with appropriate commands ...
 
 ... add any aditional set up instructions ...
