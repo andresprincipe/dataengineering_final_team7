@@ -79,3 +79,28 @@ docker compose -f docker-compose.api.yml logs -f api
 
 6. Open Swagger UI:
 - http://localhost:8088/docs
+
+# How to create the SQL database and add the data to it
+
+1. Make sure jhu_docker-postgres-1 container is running
+
+2. Run in terminal: docker exec -it jhu_docker-postgres-1 psql -U jhu -d postgres -c "CREATE DATABASE final_project;"
+
+3. Next you will need to run the .sql file to create the schema
+
+4. Copy the file into your Docker container from wherever the file final_project_db.sql is being stored
+
+5. Use the command docker cp '/your/path/final_project_db.sql' jhu_docker-postgres-1:/var/lib/postgresql/data/
+
+6. Verify its container with docker exec -it jhu_docker-postgres-1 ls /var/lib/postgresql/data/
+
+7. Execute the SQL file inside the container:
+    docker exec -it jhu_docker-postgres-1 psql -U jhu -d final_project -f /var/lib/postgresql/data/final_project_db.sql
+
+8. Now you have finished creating the database and schema.
+
+9. To upload the data to the database, make sure you change directories so you are in the working directory/folder with the following folder from our zip file: clean_data.
+
+10. Install package: python3 -m pip install psycopg2-binary pandas
+
+11. Run python script in your terminal from the folder where you have the file stored 'final_project.py' : python3 final_project.py
