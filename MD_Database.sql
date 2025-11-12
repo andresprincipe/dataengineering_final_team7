@@ -1,26 +1,9 @@
--- =========================================================
--- Database: final_project
--- =========================================================
 
-DROP DATABASE IF EXISTS final_project;
-CREATE DATABASE final_project
-    WITH
-    OWNER = jhu
-    ENCODING = 'UTF8'
-    LC_COLLATE = 'en_US.utf8'
-    LC_CTYPE = 'en_US.utf8'
-    TABLESPACE = pg_default
-    CONNECTION LIMIT = -1
-    IS_TEMPLATE = False;
-
--- =========================================================
 -- Create schema
--- =========================================================
 CREATE SCHEMA IF NOT EXISTS md_data;
 
--- =========================================================
+
 -- 1. counties
--- =========================================================
 DROP TABLE IF EXISTS md_data.counties CASCADE;
 CREATE TABLE md_data.counties (
     county_id INT PRIMARY KEY,
@@ -28,9 +11,8 @@ CREATE TABLE md_data.counties (
     state CHAR(2) NOT NULL
 );
 
--- =========================================================
+
 -- 2. average_wage_maryland
--- =========================================================
 DROP TABLE IF EXISTS md_data.average_wage_maryland CASCADE;
 CREATE TABLE md_data.average_wage_maryland (
     year INT PRIMARY KEY,
@@ -38,9 +20,7 @@ CREATE TABLE md_data.average_wage_maryland (
     date_created VARCHAR(50)
 );
 
--- =========================================================
 -- 3. average_wage_per_county
--- =========================================================
 DROP TABLE IF EXISTS md_data.average_wage_per_county CASCADE;
 CREATE TABLE md_data.average_wage_per_county (
     wage_for_county INT PRIMARY KEY,
@@ -50,9 +30,8 @@ CREATE TABLE md_data.average_wage_per_county (
     FOREIGN KEY (county_id) REFERENCES md_data.counties(county_id)
 );
 
--- =========================================================
+
 -- 4. air_enforcements_in_md
--- =========================================================
 DROP TABLE IF EXISTS md_data.air_enforcements_in_md CASCADE;
 CREATE TABLE md_data.air_enforcements_in_md (
     ai_combined VARCHAR(50) PRIMARY KEY,
@@ -66,9 +45,7 @@ CREATE TABLE md_data.air_enforcements_in_md (
     FOREIGN KEY (county_id) REFERENCES md_data.counties(county_id)
 );
 
--- =========================================================
 -- 5. water_enforcements_in_md
--- =========================================================
 DROP TABLE IF EXISTS md_data.water_enforcements_in_md CASCADE;
 CREATE TABLE md_data.water_enforcements_in_md (
     ai_combined VARCHAR(50) PRIMARY KEY,
