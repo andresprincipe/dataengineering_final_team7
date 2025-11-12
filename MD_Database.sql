@@ -1,9 +1,9 @@
 -- =========================================================
--- Database: FinalProject
+-- Database: final_project
 -- =========================================================
 
-DROP DATABASE IF EXISTS "FinalProject";
-CREATE DATABASE "FinalProject"
+DROP DATABASE IF EXISTS final_project;
+CREATE DATABASE final_project
     WITH
     OWNER = jhu
     ENCODING = 'UTF8'
@@ -16,72 +16,72 @@ CREATE DATABASE "FinalProject"
 -- =========================================================
 -- Create schema
 -- =========================================================
-CREATE SCHEMA IF NOT EXISTS MD_data;
+CREATE SCHEMA IF NOT EXISTS md_data;
 
 -- =========================================================
--- 1. Counties in MD
+-- 1. counties
 -- =========================================================
-DROP TABLE IF EXISTS MD_data.Counties CASCADE;
-CREATE TABLE MD_data.Counties (
-    County_ID INT PRIMARY KEY,
-    County_Name VARCHAR(50) NOT NULL,
-    State CHAR(2) NOT NULL
+DROP TABLE IF EXISTS md_data.counties CASCADE;
+CREATE TABLE md_data.counties (
+    county_id INT PRIMARY KEY,
+    county_name VARCHAR(50) NOT NULL,
+    state CHAR(2) NOT NULL
 );
 
 -- =========================================================
--- 2. Average Wage Maryland
+-- 2. average_wage_maryland
 -- =========================================================
-DROP TABLE IF EXISTS MD_data.AverageWageMaryland CASCADE;
-CREATE TABLE MD_data.AverageWageMaryland (
-    Year INT PRIMARY KEY,
-    WageThatYear INT NOT NULL,
-    DateCreated VARCHAR(50)
+DROP TABLE IF EXISTS md_data.average_wage_maryland CASCADE;
+CREATE TABLE md_data.average_wage_maryland (
+    year INT PRIMARY KEY,
+    wage_that_year INT NOT NULL,
+    date_created VARCHAR(50)
 );
 
 -- =========================================================
--- 3. Average Wage per County
+-- 3. average_wage_per_county
 -- =========================================================
-DROP TABLE IF EXISTS MD_data.AverageWagePerCounty CASCADE;
-CREATE TABLE MD_data.AverageWagePerCounty (
-    WageForCounty INT PRIMARY KEY,
-    Year INT NOT NULL,
-    County_ID INT NOT NULL,
-    FOREIGN KEY (Year) REFERENCES MD_data.AverageWageMaryland(Year),
-    FOREIGN KEY (County_ID) REFERENCES MD_data.Counties(County_ID)
+DROP TABLE IF EXISTS md_data.average_wage_per_county CASCADE;
+CREATE TABLE md_data.average_wage_per_county (
+    wage_for_county INT PRIMARY KEY,
+    year INT NOT NULL,
+    county_id INT NOT NULL,
+    FOREIGN KEY (year) REFERENCES md_data.average_wage_maryland(year),
+    FOREIGN KEY (county_id) REFERENCES md_data.counties(county_id)
 );
 
 -- =========================================================
--- 4. Air Enforcements in MD
+-- 4. air_enforcements_in_md
 -- =========================================================
-DROP TABLE IF EXISTS MD_data.AirEnforcementsInMD CASCADE;
-CREATE TABLE MD_data.AirEnforcementsInMD (
-    Ai_Combined VARCHAR(50) PRIMARY KEY,
-    AchievedDate VARCHAR(50),
-    ActionDescription VARCHAR(50),
-    Address VARCHAR(50),
-    City VARCHAR(50),
-    ZipCode INT,
-    County_ID INT,
-    Documents VARCHAR(50),
-    FOREIGN KEY (County_ID) REFERENCES MD_data.Counties(County_ID)
+DROP TABLE IF EXISTS md_data.air_enforcements_in_md CASCADE;
+CREATE TABLE md_data.air_enforcements_in_md (
+    ai_combined VARCHAR(50) PRIMARY KEY,
+    achieved_date VARCHAR(50),
+    action_description VARCHAR(50),
+    address VARCHAR(50),
+    city VARCHAR(50),
+    zip_code INT,
+    county_id INT,
+    documents VARCHAR(50),
+    FOREIGN KEY (county_id) REFERENCES md_data.counties(county_id)
 );
 
 -- =========================================================
--- 5. Water Enforcements in MD
+-- 5. water_enforcements_in_md
 -- =========================================================
-DROP TABLE IF EXISTS MD_data.WaterEnforcementsInMD CASCADE;
-CREATE TABLE MD_data.WaterEnforcementsInMD (
-    Ai_Combined VARCHAR(50) PRIMARY KEY,
-    Upload_ID VARCHAR(50),
-    Address VARCHAR(50),
-    City VARCHAR(50),
-    Program VARCHAR(50),
-    EnforcementAction VARCHAR(50),
-    EnforcementNumber VARCHAR(50),
-    ZipCode INT,
-    County_ID INT,
-    EnforcementActionIssued VARCHAR(50),
-    CaseClosed VARCHAR(50),
-    Media VARCHAR(50),
-    FOREIGN KEY (County_ID) REFERENCES MD_data.Counties(County_ID)
+DROP TABLE IF EXISTS md_data.water_enforcements_in_md CASCADE;
+CREATE TABLE md_data.water_enforcements_in_md (
+    ai_combined VARCHAR(50) PRIMARY KEY,
+    upload_id VARCHAR(50),
+    address VARCHAR(50),
+    city VARCHAR(50),
+    program VARCHAR(50),
+    enforcement_action VARCHAR(50),
+    enforcement_number VARCHAR(50),
+    zip_code INT,
+    county_id INT,
+    enforcement_action_issued VARCHAR(50),
+    case_closed VARCHAR(50),
+    media VARCHAR(50),
+    FOREIGN KEY (county_id) REFERENCES md_data.counties(county_id)
 );
