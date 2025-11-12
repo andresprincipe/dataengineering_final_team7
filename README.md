@@ -35,6 +35,50 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 - `docker-compose.api.snippet.yml` contains the API service configuration for docker-compose, linking the API to PostgreSQL and Airflow within a shared network.
 - `dags/` contains Airflow DAGs used for automated data extraction, transformation, and refresh pipelines.
 
+### Quickstart
+
+1) Navigate to project directory
+
+```bash
+cd "/Users/xxx"
+```
+
+2) Create your .env file
+
+```bash
+cp api/env.example api/.env
+```
+
+then overwrite this:
+
+```bash
+cat > api/.env <<'EOF'
+FASTAPI_PORT=8088
+DB_HOST=postgres
+DB_PORT=5432
+DB_NAME=md_data
+DB_USER=postgres
+DB_PASSWORD=postgres
+CORS_ORIGINS=*
+EOF
+```
+
+3)Build and run the API container
+
+```bash
+docker compose -f docker-compose.api.yml up -d --build
+```
+
+4)Verify the API service
+
+```bash
+docker compose -f docker-compose.api.yml logs -f api
+```
+
+5) Open Swagger UI:
+
+- http://localhost:8088/docs
+
 # Setup Instructions
 - Download the docker .yml file to a designated folder.
 - Go into your computers terminal, and change directories to that folder to run your .yml file
