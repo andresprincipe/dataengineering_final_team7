@@ -37,7 +37,7 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 
 ### Quickstart
 
-Open Docker Desktop first and start!
+Open Docker Desktop first and start jhu-docker
 
 Open a new Terminal and follow the instructions.
 1) Navigate to project directory
