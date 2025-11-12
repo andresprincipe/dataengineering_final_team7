@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS md_data.counties CASCADE;
 CREATE TABLE md_data.counties (
     county_id INT PRIMARY KEY,
     county_name VARCHAR(50) NOT NULL,
-    state CHAR(2) NOT NULL
+    state CHAR(50) NOT NULL
 );
 
 
