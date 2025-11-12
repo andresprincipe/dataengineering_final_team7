@@ -66,6 +66,14 @@ CORS_ORIGINS=*
 EOF
 ```
 
+2.5）Create Docker shared network
+
+Before building the API container, make sure the shared Docker network exists:
+```bash
+docker network create shared
+```
+If the network already exists, this command will be ignored automatically.
+
 
 3)Build and run the API container
 
