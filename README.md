@@ -42,6 +42,8 @@ Code necessary for building Johns Hopkins Data Engineering course final group pr
 - open Pgadmin and connect to the server from the container
 - Run the sql script to initalize the database
 - Run python script to input data into databse
+- The name of our server is:
+- host: , port:, username:, password:
 ... add Docker install instructions with appropriate commands ...
 
 ... add any aditional set up instructions ...
