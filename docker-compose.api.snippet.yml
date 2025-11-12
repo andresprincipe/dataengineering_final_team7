@@ -1,12 +1,15 @@
-api:
-  build: ./api
-  env_file: ./api/.env
-  ports:
-    - "8088:8088"
-  depends_on:
-    - postgres
-    - airflow-webserver
-  networks:
-    - shared
+services:
+  api:
+    build: ./api
+    env_file: ./api/.env
+    ports:
+      - "8088:8088"
+    depends_on:
+      - postgres
+      - airflow-webserver
+    networks:
+      - shared
 
-
+networks:
+  shared:
+    external: true
