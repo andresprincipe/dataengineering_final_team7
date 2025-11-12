@@ -34,31 +34,31 @@ CREATE TABLE md_data.average_wage_per_county (
 -- 4. air_enforcements_in_md
 DROP TABLE IF EXISTS md_data.air_enforcements_in_md CASCADE;
 CREATE TABLE md_data.air_enforcements_in_md (
-    ai_combined VARCHAR(50) PRIMARY KEY,
-    achieved_date VARCHAR(50),
-    action_description VARCHAR(50),
-    address VARCHAR(50),
+    ai_combined VARCHAR(255) PRIMARY KEY,
+    achieved_date VARCHAR(255),
+    action_description VARCHAR(255),
+    address VARCHAR(255),
     city VARCHAR(50),
     zip_code INT,
     county_id INT,
-    documents VARCHAR(50),
+    documents VARCHAR(255),
     FOREIGN KEY (county_id) REFERENCES md_data.counties(county_id)
 );
 
 -- 5. water_enforcements_in_md
 DROP TABLE IF EXISTS md_data.water_enforcements_in_md CASCADE;
 CREATE TABLE md_data.water_enforcements_in_md (
-    ai_combined VARCHAR(50) PRIMARY KEY,
-    upload_id VARCHAR(50),
-    address VARCHAR(50),
-    city VARCHAR(50),
-    program VARCHAR(50),
-    enforcement_action VARCHAR(50),
-    enforcement_number VARCHAR(50),
+    ai_combined VARCHAR(255) PRIMARY KEY,
+    upload_id VARCHAR(255),
+    address VARCHAR(255),
+    city VARCHAR(255),
+    program VARCHAR(255),
+    enforcement_action VARCHAR(255),
+    enforcement_number VARCHAR(255),
     zip_code INT,
     county_id INT,
-    enforcement_action_issued VARCHAR(50),
-    case_closed VARCHAR(50),
-    media VARCHAR(50),
+    enforcement_action_issued VARCHAR(255),
+    case_closed VARCHAR(255),
+    media VARCHAR(255),
     FOREIGN KEY (county_id) REFERENCES md_data.counties(county_id)
 );
